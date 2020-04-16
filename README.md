@@ -82,7 +82,7 @@ videos of events.  This page's goal is to give the customers a sense of inclusio
 	- This project uses **Fontawesome** for quick icon styling
 - [Draw.io](https://www.draw.io/) - Wireframing tool
 	- This project uses **Draw.io** for rapid wireframe prototyping
-    
+
 //TODO ################ Testing //END TODO  ###########
 
 ## Credits
@@ -93,10 +93,10 @@ Created by KelvinHere
 
 ### Media
 
-My brother Edwin who is skilled in digital photography
-Food allergen icons - [Erudus Food Allergy Icons](https://erudus.com/erudus-food-allergy-icons/)
-Crossed grain symbol - [Coeliac Society of Ireland](https://www.coeliac.ie/crossed-grain-symbol/)
-Vegetarian symbol - [European Vegetarian Union](https://www.euroveg.eu/)
+- My brother Edwin who is skilled in digital photography
+- Food allergen icons - [Erudus Food Allergy Icons](https://erudus.com/erudus-food-allergy-icons/)
+- Crossed grain symbol - [Coeliac Society of Ireland](https://www.coeliac.ie/crossed-grain-symbol/)
+- Vegetarian symbol - [European Vegetarian Union](https://www.euroveg.eu/)
 
 ### Acknowledgements
 
