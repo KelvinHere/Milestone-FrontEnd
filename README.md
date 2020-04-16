@@ -1,6 +1,6 @@
 # Front End Milestone Project - *Restaurant Website*
 
-This milestone project demonstrates my ability to create a static website using *HTML5, CCS and CDNs*.
+This milestone project demonstrates my ability to create a static website using **HTML5, CCS and CDNs***.
 
 The website is for a restaurant and its aim is to attract customers to boost its sales.  The main page will quickly give users an idea of the style of food available and ethos of the company.  This website also includes an online menu with prices and expandable nutrition/allergen info, also available as a downloadable PDF.  A location page with map link and opening hours.
 
@@ -50,8 +50,8 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 ## Technologies Used
 
-- HTML5/CSS3 - Languages
-	- HTML5/CSS3 was used as it is a good industry standard
+- [HTML5/CSS3] - Languages
+	- **HTML5/CSS3** was used as it is a good industry standard
 - [Gitpod](https://www.gitpod.com) - IDE
 	- **Gitpod** was used for its one stop contained development workflow via browser
 - [Github](https://www.gitpod.com) - Version Control
