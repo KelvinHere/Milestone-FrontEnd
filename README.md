@@ -17,7 +17,7 @@ Primarily the users will want to view the different menu items quickly to make a
 looking interface to access these choices with as few clicks as possible, from the main page which will have a “dish of the day” the rest of the 
 menu and location information will be accessible by one click.
 
-##### User stories
+#### User stories
 * As Bob I'm a previous customer, I want to choose something to eat because I'm hungry.
 * As Charlie, a friend recommended the restaurant, I want to find out where it is so I can visit.
 * As Sue, an allergy sufferer, I want to view the allergens in the food so I don’t have a bad reaction.
@@ -25,11 +25,17 @@ menu and location information will be accessible by one click.
 * As Pat, a health conscious person, I want to know the nutrition information of my lunch, so I can stay within my nutrition boundaries.
 * As Frank, a shift worker, I want to know the opening hours, so I am not wasting a trip to the restaurant. 
 
-##### wireframes
-Index page on desktop
+#### wireframes
+##### Index page on desktop
 ![Index Mockup](https://github.com/KelvinHere/Milestone-FrontEnd/blob/master/design-assets/index-desktop.jpg?raw=true "Index page mockup on desktop")
-Menu page on desktop
+#### Menu page on desktop
 ![Menu Mockup](https://github.com/KelvinHere/Milestone-FrontEnd/blob/master/design-assets/menu-desktop.jpg?raw=true "Menu page mockup on desktop")
+#### Menu modal select on desktop
+![Menu Modal Mockup](https://github.com/KelvinHere/Milestone-FrontEnd/blob/master/design-assets/menu-modal-desktop.jpg?raw=true "Menu modal page mockup on desktop")
+#### Events on desktop
+![Events Mockup](https://github.com/KelvinHere/Milestone-FrontEnd/blob/master/design-assets/events-desktop.jpg?raw=true "events page mockup on desktop")
+#### Location on desktop
+![Location Mockup](https://github.com/KelvinHere/Milestone-FrontEnd/blob/master/design-assets/location-desktop.jpg?raw=true "location page mockup on desktop")
 
 //TODO -----------------------------------------------------------------------------------------------
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
