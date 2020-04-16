@@ -26,8 +26,10 @@ menu and location information will be accessible by one click.
 * As Frank, a shift worker, I want to know the opening hours, so I am not wasting a trip to the restaurant. 
 
 ##### wireframes
-Index
-![Index Mockup](https://github.com/KelvinHere/Milestone-FrontEnd/blob/master/design-assets/index.jpg?raw=true "Index page mockup")
+Index page on desktop
+![Index Mockup](https://github.com/KelvinHere/Milestone-FrontEnd/blob/master/design-assets/index-desktop.jpg?raw=true "Index page mockup on desktop")
+Menu page on desktop
+![Menu Mockup](https://github.com/KelvinHere/Milestone-FrontEnd/blob/master/design-assets/menu-desktop.jpg?raw=true "Menu page mockup on desktop")
 
 //TODO -----------------------------------------------------------------------------------------------
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
@@ -39,7 +41,7 @@ This section is also where you would share links to any wireframes, mockups, dia
 *A hero image to display the kind of foods available and set the tone of the company ethos.  This will have the restaurant name, hero image, 
 dish of the day and links to all other pages on the site.  Scrolling on this site will get you to a footer with an instant menu download PDF
 
-##### Menu Page
+##### Food Menu Page
 * Will show off the restaurants dishes, with an at a glance allergen/suitable for icons.  
 * Menu items will be clickable, opening up a larger image in a bootstrap modal, this will give more information on nutrition and allergens.  
 * From the menuitem model there will be an “I want this” button that will open another modal with the name of the food, the address/opening 
@@ -84,6 +86,9 @@ Created by KelvinHere
 ### Media
 
 My brother Edwin who is skilled in digital photography
+Food allergen icons - [Erudus Food Allergy Icons](https://erudus.com/erudus-food-allergy-icons/)
+Crossed grain symbol - [Coeliac Society of Ireland](https://www.coeliac.ie/crossed-grain-symbol/)
+Vegetarian symbol - [European Vegetarian Union](https://www.euroveg.eu/)
 
 ### Acknowledgements
 
