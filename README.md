@@ -45,7 +45,7 @@ menu and location information will be accessible by one click.
 ## Features
 
 ##### Main page
-*A hero image to display the kind of foods available and set the tone of the company ethos.  This will have the restaurant name, hero image, 
+* A hero image to display the kind of foods available and set the tone of the company ethos.  This will have the restaurant name, hero image, 
 dish of the day and links to all other pages on the site.  Scrolling on this site will get you to a footer with an instant menu download PDF
 
 ##### Food Menu Page
@@ -67,7 +67,7 @@ videos of events.  This page's goal is to give the customers a sense of inclusio
 * A simple page with opening hours, address and an embedded google maps link and GPS coordinates.
  
 
-//TODO ## Existing Features / Features Left to Implement //END TODO  ###########
+//TODO ## Existing Features / Features Left to Implement
 
 ## Technologies Used
 
@@ -84,13 +84,13 @@ videos of events.  This page's goal is to give the customers a sense of inclusio
 - [Draw.io](https://www.draw.io/) - Wireframing tool
 	- This project uses **Draw.io** for rapid wireframe prototyping
 
-//TODO ################ Testing //END TODO  ###########
+//TODO ################ Testing
 
 ## Credits
 
 Created by KelvinHere
 
-//TODO ################ Content //END TODO  ###########
+//TODO ################ Content
 
 ### Media
 
