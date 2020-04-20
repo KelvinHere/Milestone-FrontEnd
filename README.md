@@ -66,8 +66,11 @@ videos of events.  This page's goal is to give the customers a sense of inclusio
 ##### Location page
 * A simple page with opening hours, address and an embedded google maps link and GPS coordinates.
  
+### Existing Features
+- //TODO ################ 
 
-//TODO ## Existing Features / Features Left to Implement
+### Features Left to Implement
+- //TODO ################ 
 
 ## Technologies Used
 
@@ -84,13 +87,15 @@ videos of events.  This page's goal is to give the customers a sense of inclusio
 - [Draw.io](https://www.draw.io/) - Wireframing tool
 	- This project uses **Draw.io** for rapid wireframe prototyping
 
-//TODO ################ Testing
+## Testing
+- TODO ################ 
 
 ## Credits
 
 Created by KelvinHere
 
-//TODO ################ Content
+### Content
+- TODO ################ 
 
 ### Media
 
