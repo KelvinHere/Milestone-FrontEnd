@@ -1,12 +1,12 @@
 # Front End Milestone Project - *Restaurant Website*
 
-This milestone project demonstrates my ability to create a static website using **HTML5, CCS and CDNs***.
+This milestone project demonstrates my ability to create a static website using **HTML5, CCS and CDNs**.
 
-The website is for a restaurant and its aim is to attract customers to boost its sales.  The main page will quickly give users an idea of
-the style of food available and ethos of the company.  This website also includes an online menu with prices and expandable nutrition/allergen 
-info, also available as a downloadable PDF.  A location page with map link and opening hours.
+The website is for a restaurant and its aim is to attract customers to boost its sales and give the user a QR code for self service payment.  
+The main page quickly gives users an idea of the style of food available and ethos of the company.  This website also includes an **online 
+menu** with prices and expandable nutrition/allergen info, and **QR code** for quick ordering.  A **location page** with map link and opening hours.
 
-The restaurant is aimed at health conscious workers.  A customer event/loyalty page will encourage repeat custom via events, discounts and free 
+The restaurant is aimed at health conscious workers.  A customer **Event** page will encourage repeat custom via events, discounts and free 
 one off workplace lunch deliveries by draw.
 
 
@@ -24,8 +24,12 @@ menu and location information will be accessible by one click.
 * As Bill, a serial customer, I want to know this week's event, so I can try to win the office delivery draw.
 * As Pat, a health conscious person, I want to know the nutrition information of my lunch, so I can stay within my nutrition boundaries.
 * As Frank, a shift worker, I want to know the opening hours, so I am not wasting a trip to the restaurant. 
+* As Paulie, I want to order without talking to anyone, I will use the QR code and self service option.
 
 #### wireframes
+##### Mobile wireframes
+![Mobile1](https://github.com/KelvinHere/Milestone-FrontEnd/blob/master/design-assets/mobile1.jpg?raw=true "Mobile mockup index and menu")
+![Mobile2](https://github.com/KelvinHere/Milestone-FrontEnd/blob/master/design-assets/mobile2.jpg?raw=true "Mobile mockup events and location")
 ##### Index page on desktop
 ![Index Mockup](https://github.com/KelvinHere/Milestone-FrontEnd/blob/master/design-assets/index-desktop.jpg?raw=true "Index page mockup on desktop")
 #### Menu page on desktop
@@ -37,9 +41,6 @@ menu and location information will be accessible by one click.
 #### Location on desktop
 ![Location Mockup](https://github.com/KelvinHere/Milestone-FrontEnd/blob/master/design-assets/location-desktop.jpg?raw=true "location page mockup on desktop")
 
-//TODO -----------------------------------------------------------------------------------------------
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
-//END TODO ----------------------------------------------------------------------------------------
 
 ## Features
 
@@ -93,7 +94,7 @@ Created by KelvinHere
 
 ### Media
 
-- My brother Edwin who is skilled in digital photography
+- Edwin my brother the digital photographer
 - Food allergen icons - [Erudus Food Allergy Icons](https://erudus.com/erudus-food-allergy-icons/)
 - Crossed grain symbol - [Coeliac Society of Ireland](https://www.coeliac.ie/crossed-grain-symbol/)
 - Vegetarian symbol - [European Vegetarian Union](https://www.euroveg.eu/)
