@@ -1,7 +1,11 @@
 .main-article {
     height: 85vh;
-    background: url("../images/home/hero-bg.jpg") no-repeat fixed;
+    background: url("../images/home/hero-bg.jpg") no-repeat fixed bottom right;
     
+}
+
+.logo-large-image {
+    position: relative;
 }
 
 /*------------------------------------------------------------ Media Query */
