@@ -23,6 +23,13 @@
     
 }
 
+.food-item {
+    text-align: center;
+    padding-top: 125px;
+    height: 250px;
+    margin: 0;
+}
+
 /*------------------------------------------------------------ Food Table */
 .flex-container {
     display: flex;
@@ -31,13 +38,14 @@
 }
 
 .flex-column {
-    flex: 50%;
+    flex: 100%;
+    max-width: 100%;
 }
 
 /*------------------------------------------------------------ Media Query */
 @media(min-width: 768px) {
     .logo-large-image {
-        padding-left: 50px;
+        padding-left: 75px;
         
     }
 
@@ -49,4 +57,9 @@
     .index-large-buttons {
         margin-left: 10%;
     }
+
+    .flex-column {
+    flex: 50%;
+    max-width: 50%;
+}
 }
