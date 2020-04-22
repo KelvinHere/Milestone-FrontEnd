@@ -1,7 +1,9 @@
 .main-article {
     height: 85vh;
-    min-height: 580px;
     background: url("../images/home/hero-bg.jpg") no-repeat fixed bottom right;
+    background-size: cover;
+    min-height: 580px;
+    
     
 }
 
