@@ -1,8 +1,12 @@
 .main-article {
-    background: url("../images/home/hero.jpg") no-repeat bottom right fixed;
+    height: 85vh;
+    background: url("../images/home/hero-bg.jpg") no-repeat fixed;
     
 }
 
-.css-test {
-    color: green;
+/*------------------------------------------------------------ Media Query */
+@media(max-width: 992px) {
+    .main-article {
+        height: 85vh;
+    }
 }
