@@ -1,5 +1,6 @@
 .main-article {
     height: 85vh;
+    min-height: 580px;
     background: url("../images/home/hero-bg.jpg") no-repeat fixed bottom right;
     
 }
@@ -9,11 +10,11 @@
 }
 
 .main-buttons-container {
-    position: realtive;
-
+    margin-top: 10px;
 }
 
 .index-large-buttons {
+    margin-left: 10%;
     margin-top: 20px;
     width: 150px;
     padding-top: 10px;
@@ -21,9 +22,31 @@
 
     
 }
+
+/*------------------------------------------------------------ Food Table */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.flex-column {
+    flex: 50%;
+}
+
 /*------------------------------------------------------------ Media Query */
-@media(min-width: 992px) {
+@media(min-width: 768px) {
     .logo-large-image {
-        padding-left: 120px;
+        padding-left: 50px;
+        
+    }
+
+    .main-buttons-container {
+    margin-top: 100px;
+    margin-right: 50px;
+    }
+
+    .index-large-buttons {
+        margin-left: 10%;
     }
 }
