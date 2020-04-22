@@ -8,9 +8,22 @@
     position: relative;
 }
 
+.main-buttons-container {
+    position: realtive;
+
+}
+
+.index-large-buttons {
+    margin-top: 20px;
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    
+}
 /*------------------------------------------------------------ Media Query */
-@media(max-width: 992px) {
-    .main-article {
-        height: 85vh;
+@media(min-width: 992px) {
+    .logo-large-image {
+        padding-left: 120px;
     }
 }
