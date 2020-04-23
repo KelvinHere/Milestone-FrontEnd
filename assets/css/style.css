@@ -13,6 +13,22 @@
     margin: 0;
 }
 
+.nav-bar-col {
+    background: black;
+}
+
+.btn-light {
+    background: black;
+    border-color: black;
+    color: #9bd496;
+}
+
+.btn-light:hover, .btn-light:active, .btn-light:focus{
+    color: black;
+    background: #9bd496;
+    border-color: #9bd496;
+}
+
 .main-article {
     height: 85vh;
     background: url("../images/home/hero-bg.jpg") no-repeat fixed bottom right;
@@ -44,6 +60,16 @@
     margin-top: auto;
 }
 
+.btn-outline-warning {
+    color: #9bd496;
+    border-color: #9bd496;
+}
+
+.btn-outline-warning:hover {
+    background-color: #9bd496;
+    border-color: #9bd496;
+}
+
 .index-large-buttons {
     margin-bottom: 20px;
     margin-right: 275px;
@@ -69,14 +95,17 @@
 }
 
 /*------------------------------------------------------------ Media Query */
-@media(min-width: 768px) {
+@media(min-width: 769px) {
     .logo-large-image {
         padding-left: 125px;
         
     }
 
+    .button-position {
+        margin-bottom: 100px;
+    }
+
     .index-large-buttons {
-        margin-bottom: 40px;
         margin-right: 0px;
     }
 
@@ -91,4 +120,5 @@
     flex: 33%;
     max-width: 33%;
     }
+
 }
