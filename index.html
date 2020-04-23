@@ -11,25 +11,22 @@
 
     <body>
         <!-------------------------------------------------Navigation Bar-->
-        <nav class="nav-bar">
-            <div class="row">
-                <div class="col nav-bar-col py-2">
-                    <a href="index.html">Fresh Green</a>
-                </div>
-
-                <div class="col nav-bar-col text-right">
-                    <div class="btn-group dropleft">
-                        <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="fas fa-bars"></i>
-                        </button>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Home</a>
-                            <a class="dropdown-item" href="#">Menu</a>
-                            <a class="dropdown-item" href="#">Events</a>
-                            <a class="dropdown-item" href="#">Location</a>
-                        </div>
+        <nav class="navbar">
+            <a class="nav-link nav-brand" href="index.html">FreshGreen</a>
+            <div class="pos-f-t">
+                <div class="collapse" id="navbarToggleExternalContent">
+                    <div class="p-4">
+                        <a href="index.html"><h3 class="text-white h4">Home</h3></a>
+                        <a href="index.html"><h3 class="text-white h4">Menu</h3></a>
+                        <a href="index.html"><h3 class="text-white h4">Events</h3></a>
+                        <a href="index.html"><h3 class="text-white h4">Location</h3></a>
                     </div>
                 </div>
+                <nav class="navbar navbar-dark">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                </nav>
             </div>
         </nav>
 

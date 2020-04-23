@@ -3,24 +3,27 @@
     padding:0;
 }
 
-.nav-bar {
-    padding: 0;
-    margin: 0;
-}
-
-.nav-bar .row {
-    padding: 0;
-    margin: 0;
-}
-
-.nav-bar-col {
+.navbar {
     background: black;
+}
+
+.navbar a {
+    color: #9bd496;
 }
 
 .btn-light {
     background: black;
     border-color: black;
     color: #9bd496;
+}
+
+.navbar-toggler {
+    background: black;
+    border-color: black;
+}
+
+.navbar-toggler:hover {
+    background: #9bd496;
 }
 
 .btn-light:hover, .btn-light:active, .btn-light:focus{
