@@ -1,35 +1,61 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+.nav-bar {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar .row {
+    padding: 0;
+    margin: 0;
+}
+
 .main-article {
     height: 85vh;
     background: url("../images/home/hero-bg.jpg") no-repeat fixed bottom right;
     background-size: cover;
     min-height: 580px;
-    
-    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
 }
 
 .logo-large-image {
-    position: relative;
+    max-width: 100%;
+    min-width: 300px;
+    width: auto;
+}
+
+.logo-position {
+    width: 100%;
+    
 }
 
 .main-buttons-container {
-    margin-top: 10px;
+    padding: 0;
+}
+
+.button-position {
+    width: 100%;
+    margin-top: auto;
 }
 
 .index-large-buttons {
-    margin-left: 10%;
-    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 275px;
     width: 150px;
     padding-top: 10px;
     padding-bottom: 10px;
-
-    
 }
 
 /*------------------------------------------------------------ Food Table */
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .flex-column {
@@ -45,28 +71,23 @@
 /*------------------------------------------------------------ Media Query */
 @media(min-width: 768px) {
     .logo-large-image {
-        padding-left: 75px;
+        padding-left: 125px;
         
     }
 
-    .main-buttons-container {
-    margin-top: 100px;
-    margin-right: 50px;
-    }
-
     .index-large-buttons {
-        margin-left: 10%;
+        margin-bottom: 40px;
+        margin-right: 0px;
     }
 
-    .flex-column {
+    .food-table .flex-column {
     flex: 50%;
     max-width: 50%;
     }
-
 }
 
 @media(min-width: 1281px) {
-    .flex-column {
+    .food-table .flex-column {
     flex: 33%;
     max-width: 33%;
     }
