@@ -34,9 +34,11 @@
 
 .main-article {
     height: 85vh;
-    background: url("../images/home/hero-bg.jpg") no-repeat fixed bottom right;
-    background-size: cover;
-    min-height: 580px;
+    background-image: url("../images/home/hero-bg.jpg");
+    background-attachment: fixed;
+    background-position: 25% 12%;
+    background-size: 180%;
+    min-height: 80vh;
     display: flex;
     align-items: center;
     flex-direction: column;
