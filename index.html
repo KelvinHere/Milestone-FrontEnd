@@ -12,21 +12,21 @@
 
 	<body>
 		<!-------------------------------------------------Navigation Bar-->
-		<nav class="navbar">
-			<a class="nav-link nav-brand" href="index.html">FreshGreen</a>
-	
-			<div class="nav-btn-group">
-				<div class="dropdown-toggle nav-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-	                <i class="fas fa-bars"></i>
-	            </div>
-				<div class="dropdown-menu dropdown-menu-right">
-					<a href="index.html" class="dropdown-item" type="button">Home</a>
-					<a href="index.html" class="dropdown-item" type="button">Menu</a>
-					<a href="index.html" class="dropdown-item" type="button">Events</a>
-                    <a href="index.html" class="dropdown-item" type="button">Location</a>
-				</div>
+		<nav class="navbar navbar-expand-md">
+			<a class="nav-brand" href="index.html">FreshGreen</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+		        <i class="fas fa-bars navbar-menu-icon"></i>
+		    </button>
+		
+			<div class="collapse navbar-collapse" id="navbarToggler">
+				<ul class="navbar-nav">
+                        <li class="active nav-item"><a href="index.html" class="dropdown-item" type="button">Home</a></li>
+                        <li class="active nav-item"><a href="index.html" class="dropdown-item" type="button">Menu</a></li>
+                        <li class="active nav-item"><a href="index.html" class="dropdown-item" type="button">Events</a></li>
+                        <li class="active nav-item"><a href="index.html" class="dropdown-item" type="button">Location</a></li>
+				</ul>
 			</div>
-        </nav>
+		</nav>
 
         <!-------------------------------------------------Hero image-->
         <article class="container-fluid main-article">

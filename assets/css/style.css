@@ -27,23 +27,25 @@ body {
     margin-left: 12px;
 }
 
-.nav-dropdown {
-    border: none;
-    border-radius: 0;
-    box-shadow: none;
-    padding: 0px 20px;
-    margin: 0;
-    font-size: 30px;
-    background: none;
+.nav-brand:hover {
+    text-decoration: none;
+}
+
+.navbar-toggler:focus {
+    outline-color: rgba(0, 0, 0, 0);
+}
+
+.navbar-collapse a {
+    font-size: 25px;
+}
+
+.navbar-collapse a:hover {
+    background-color: #9bd496;
+    color: black;
+}
+
+.navbar-menu-icon {
     color: #9bd496;
-}
-
-.dropdown-menu-right {
-    background: black;
-}
-
-.dropdown-menu-right a {
-    font-size: 30px;
 }
 
 .main-article {
@@ -75,17 +77,6 @@ body {
     
 }
 
-.logo-heading {
-    color: #9bd496;
-    position: absolute;
-}
-
-.btn-light {
-    background: black;
-    border-color: black;
-    color: #9bd496;
-}
-
 .main-buttons-container {
     padding: 0;
 }
@@ -104,10 +95,6 @@ body {
 .btn-outline-warning:hover {
     background-color: #9bd496;
     border-color: #9bd496;
-}
-
-.food-table {
-    position: relative;
 }
 
 .index-large-buttons {
@@ -131,29 +118,33 @@ body {
 }
 
 /*------------------------------------------------------------ Food Table */
-.flex-container {
+.food-table {
+    position: relative;
+}
+
+.food-table .flex-container {
     display: flex;
     flex-wrap: wrap;
 }
 
-.flex-column {
+.food-table .flex-column {
     flex: 100%;
     max-width: 100%;
 }
 
-.food-table-image {
+.food-table .food-table-image {
     vertical-align: middle;
     width: 100%;
 }
 
 /*------------------------------------------------------------ Media Query */
 @media screen and (orientation:landscape) {
-    .index-large-buttons {
-        float: left;
-    }
-
     .main-article {
         height: auto;
+    }
+
+    .index-large-buttons {
+        float: left;
     }
 }
 
@@ -164,6 +155,13 @@ body {
         height: 95vh;
     }
 
+    .index-large-buttons {
+        margin-right: 0px;
+        height: 75px;
+        font-size: 30px;
+        float: none;
+    }
+
     .logo-large-image {
         padding-left: 125px;
         
@@ -171,16 +169,6 @@ body {
 
     .button-position {
         margin-bottom: 25px;
-    }
-
-    .index-large-buttons {
-        margin-right: 0px;
-        height: 75px;
-        font-size: 30px;
-    }
-
-    .index-large-buttons {
-        float: none;
     }
 
     .food-table .flex-column {
