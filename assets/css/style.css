@@ -3,8 +3,23 @@
     padding:0;
 }
 
+body {
+    font-family: 'Kavivanar', sans-serif;
+}
+
+.hero-image-container {
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/home/hero-bg.jpg");
+    background-size: cover;
+    z-index: -1;
+    position: absolute;
+    background-position: right 30% bottom;
+}
+
 .navbar {
     background: black;
+
 }
 
 .navbar a {
@@ -34,11 +49,6 @@
 
 .main-article {
     height: 85vh;
-    background-image: url("../images/home/hero-bg.jpg");
-    background-attachment: fixed;
-    background-position: 25% 12%;
-    background-size: 180%;
-    min-height: 80vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -47,13 +57,19 @@
 
 .logo-large-image {
     max-width: 100%;
-    min-width: 300px;
+    max-height: 40vh;;
     width: auto;
+    margin-bottom: 20px;
 }
 
 .logo-position {
     width: 100%;
     
+}
+
+.logo-heading {
+    color: #9bd496;
+    position: absolute;
 }
 
 .main-buttons-container {
@@ -81,6 +97,7 @@
     width: 150px;
     padding-top: 10px;
     padding-bottom: 10px;
+    background: rgba(0,0,0,0.3);
 }
 
 /*------------------------------------------------------------ Food Table */
@@ -115,15 +132,18 @@
     }
 
     .food-table .flex-column {
-    flex: 50%;
-    max-width: 50%;
+    flex: 33.33%;
+    max-width: 33.33%;
     }
 }
 
 @media(min-width: 1281px) {
-    .food-table .flex-column {
-    flex: 33%;
-    max-width: 33%;
+    .hero-image-container {
+       background-position: right 0% bottom;
     }
 
+    .food-table .flex-column {
+    flex: 33.33%;
+    max-width: 33.33%;
+    }
 }
