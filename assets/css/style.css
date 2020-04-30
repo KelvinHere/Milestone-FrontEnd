@@ -10,6 +10,7 @@ body {
 .hero-image-container {
     width: 100%;
     height: 100%;
+    min-width: 512px;
     background-image: url("../images/home/hero-bg.jpg");
     background-size: cover;
     z-index: -1;
@@ -18,12 +19,41 @@ body {
 }
 
 .navbar {
-    background: black;
-
+    position: fixed;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+    padding: 0;
+    z-index: 100;
+    top: 0;
 }
 
 .navbar a {
     color: #9bd496;
+}
+
+.nav-brand {
+    font-size: 25px;
+    padding: 0;
+    margin-left: 12px;
+}
+
+.nav-dropdown {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0px 20px;
+    margin: 0;
+    font-size: 30px;
+    background: none;
+    color: #9bd496;
+}
+
+.dropdown-menu-right {
+    background: black;
+}
+
+.dropdown-menu-right a {
+    font-size: 30px;
 }
 
 .btn-light {
@@ -32,23 +62,9 @@ body {
     color: #9bd496;
 }
 
-.navbar-toggler {
-    background: black;
-    border-color: black;
-}
-
-.navbar-toggler:hover {
-    background: #9bd496;
-}
-
-.btn-light:hover, .btn-light:active, .btn-light:focus{
-    color: black;
-    background: #9bd496;
-    border-color: #9bd496;
-}
-
 .main-article {
-    height: 85vh;
+    height: 95vh;
+    min-width: 512px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -63,6 +79,7 @@ body {
 }
 
 .logo-position {
+    margin-top: 20px;
     width: 100%;
     
 }
@@ -94,16 +111,18 @@ body {
 .index-large-buttons {
     margin-bottom: 20px;
     margin-right: 275px;
-    width: 150px;
+    width: 220px;
     padding-top: 10px;
     padding-bottom: 10px;
     background: rgba(0,0,0,0.3);
+    font-size: 25px;
 }
 
 /*------------------------------------------------------------ Food Table */
 .flex-container {
     display: flex;
     flex-wrap: wrap;
+    min-width: 512px;
 }
 
 .flex-column {
@@ -124,11 +143,13 @@ body {
     }
 
     .button-position {
-        margin-bottom: 100px;
+        margin-bottom: 25px;
     }
 
     .index-large-buttons {
         margin-right: 0px;
+        height: 75px;
+        font-size: 30px;
     }
 
     .food-table .flex-column {
