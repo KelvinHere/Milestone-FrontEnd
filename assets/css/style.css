@@ -45,6 +45,12 @@ body {
     color: black;
 }
 
+.nav-social-media-bar {
+    padding-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
 .navbar-menu-icon {
     color: #9bd496;
 }
@@ -55,6 +61,14 @@ body {
 
 .navbar-nav .active a {
     color: black;
+}
+
+.social-media-links {
+    padding-left: 9px;
+    padding-right: 9px;
+    margin: 10px;
+    border-radius: 25%;
+
 }
 
 /*------------------------------------------------------------ General */
@@ -146,6 +160,19 @@ body {
 .food-table .food-table-image {
     vertical-align: middle;
     width: 100%;
+}
+
+/*------------------------------------------------------------ Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    margin: auto;
+}
+
+.social-media-links {
+    margin: 0;
+    font-size: 38px;
+    color: #9bd496;
 }
 
 /*------------------------------------------------------------ Media Query */

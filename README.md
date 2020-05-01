@@ -4,8 +4,8 @@ This milestone project demonstrates my ability to create a static website using 
 
 Website Link : https://kelvinhere.github.io/Milestone-FrontEnd/
 
-The website is for a restaurant and its aim is to attract customers to boost its sales and give the user a QR code for self service payment.  The main page quickly gives users an idea of the style of food available and ethos of the company.  This website also includes an **online 
-menu** with prices and expandable nutrition/allergen info, and **QR code** for quick ordering.  A **location page** with map link and opening hours.
+This is a restaurant website, its aim is to attract customers to boost its sales and give the user QR codes for self service payment.  The main page quickly gives users an idea of the style of food available and ethos of the company.  This website also includes an **online 
+menu** with prices and expandable nutrition/allergen info and **QR code** for quick ordering.  A **location page** with map link and opening hours.
 
 The restaurant is aimed at health conscious workers.  A customer **Event** page will encourage repeat custom via events, discounts and free 
 one off workplace lunch deliveries by draw.
