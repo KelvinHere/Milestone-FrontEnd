@@ -105,17 +105,6 @@ body {
     min-height: 580px;
 }
 
-.menu-article {
-    background-image: url("../images/menu/menu-background-sm.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: -1;
-    height: 100vh;
-    width: 100%;
-    padding: 0;
-    background-position: center 50% center 50%;
-}
-
 .logo-large-image {
     max-width: 100%;
     max-height: 40vh;
@@ -209,6 +198,40 @@ footer .social-media-links {
     line-height: 0;
 }
 
+/*------------------------------------------------------------ Menu Page - Menu item */
+.menu-article-background {
+    background-image: url("../images/menu/menu-background-sm.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    position: fixed;
+    background-position: center 50% center 50%;
+}
+
+.menu-article .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8vh;
+}
+
+.menu-article .flex-column {
+    display: flex;
+    flex: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3vh;
+}
+
+.menupage-food-item {
+    background: rgba(0,0,0,0.7);
+    margin: 0 20px 0 20px;
+    min-height: 300px;
+    min-width: 300px;
+}
+
 /*------------------------------------------------------------ Media Query */
 @media screen and (max-height: 635px) { 
     .main-article {    /*Allow hero image to overflow screen height too small*/
@@ -219,7 +242,7 @@ footer .social-media-links {
         float: left;
     }
 
-    footer {    /* Remove footer if there is no room on screen */
+    .index-page footer {    /* Remove footer if there is no room on screen */
         display: none;
     }
 }
@@ -260,9 +283,14 @@ footer .social-media-links {
         display: none;
     }
 
-    .menu-article {
+    .menu-article-background {
         background-image: url("../images/menu/menu-background-lg.jpg");
         background-position: center center;
+    }
+
+    .menu-article .flex-column {
+        flex: 50%;
+        max-width: 50%;
     }
 }
 
