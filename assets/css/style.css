@@ -177,6 +177,8 @@ body {
 .food-table .food-table-image {
     vertical-align: middle;
     width: 100%;
+    padding: 1px;
+    background-color: #9bd496;
 }
 
 /*------------------------------------------------------------ Footer */
