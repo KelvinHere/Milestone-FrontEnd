@@ -46,9 +46,8 @@ body {
 }
 
 .nav-social-media-bar {
-    padding-left: 15px;
-    margin-top: 5px;
-    margin-bottom: 15px;
+    padding-left: 20px;
+    line-height: 0;
 }
 
 .navbar-menu-icon {
@@ -63,14 +62,33 @@ body {
     color: black;
 }
 
-.social-media-links {
-    padding-left: 9px;
-    padding-right: 9px;
-    margin: 10px;
-    border-radius: 25%;
-
+.nav-social-media-bar .social-media-links {
+    padding-left: 1px;
+    padding-right: 1px;
+    margin: 0 15px 0 0;
+    font-size: 32px;
+    color: #9bd496;
 }
 
+.nav-social-media-bar .social-media-links:hover {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.fa-facebook-square:hover {
+    color: #3b5998;
+}
+
+.fa-instagram-square:hover {
+    color: #833ab4;
+}
+
+.fa-twitter-square:hover {
+    color: #08a0e9;
+}
+
+.fa-youtube-square:hover {
+    color: #c4302b;
+}
 /*------------------------------------------------------------ General */
 .main-article {
     background-image: url("../images/home/hero-bg-mobile.jpg");
@@ -98,7 +116,6 @@ body {
 .logo-position {
     margin-top: 3vh;
     width: 100%;
-    
 }
 
 .table-split-line {
@@ -169,20 +186,28 @@ footer {
     margin: auto;
 }
 
-.social-media-links {
-    margin: 0;
-    font-size: 38px;
+footer .social-media-links {
+    padding: 5px 6px 5px 6px;
+    margin: 0 5px 5px 5px;
+    font-size: 32px;
     color: #9bd496;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 25%;
+    line-height: 0;
 }
 
 /*------------------------------------------------------------ Media Query */
-@media screen and (orientation:landscape) {
-    .main-article {
+@media screen and (max-height: 635px) { 
+    .main-article {    /*Allow hero image to overflow screen height too small*/
         height: auto;
     }
 
     .index-large-buttons {
         float: left;
+    }
+
+    footer {    /* Remove footer if there is no room on screen */
+        display: none;
     }
 }
 
@@ -216,6 +241,10 @@ footer {
     .food-table .flex-column {
     flex: 33.33%;
     max-width: 33.33%;
+    }
+
+    footer {
+        display: none;
     }
 }
 
