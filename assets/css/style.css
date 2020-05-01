@@ -91,7 +91,7 @@ body {
 }
 /*------------------------------------------------------------ General */
 .main-article {
-    background-image: url("../images/home/hero-bg-mobile.jpg");
+    background-image: url("../images/home/hero-bg-sm.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
@@ -103,6 +103,17 @@ body {
     flex-direction: column;
     padding: 0;
     min-height: 580px;
+}
+
+.menu-article {
+    background-image: url("../images/menu/menu-background-sm.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    background-position: center 50% center 50%;
 }
 
 .logo-large-image {
@@ -215,7 +226,7 @@ footer .social-media-links {
 
 @media(min-width: 769px) {
     .main-article {
-        background-image: url("../images/home/hero-bg-tablet.jpg");
+        background-image: url("../images/home/hero-bg-md.jpg");
         background-position: center bottom 30%;
         height: 95vh;
     }
@@ -248,11 +259,16 @@ footer .social-media-links {
     footer {
         display: none;
     }
+
+    .menu-article {
+        background-image: url("../images/menu/menu-background-lg.jpg");
+        background-position: center center;
+    }
 }
 
 @media(min-width: 1281px) {
     .main-article {
-        background-image: url("../images/home/hero-bg.jpg");
+        background-image: url("../images/home/hero-bg-lg.jpg");
         height: 95vh;
     }
 }
