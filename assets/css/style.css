@@ -216,6 +216,7 @@ footer .social-media-links {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    position: relative;
 }
 
 .menu-wrapper h2 {
@@ -251,6 +252,21 @@ footer .social-media-links {
 
 .food-info > .food-description {
     color: #9bd496;
+}
+
+.food-info > .food-price {
+    color: #9bd496;
+    text-align: right;
+}
+
+.menu-wrapper a { /*strectch a to cover menu item and description*/
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 /*------------------------------------------------------------ Media Query */
