@@ -44,7 +44,7 @@
 					<tbody>
 						<tr>
 							<td>
-                                <a href="index.html"></a>
+                                <button type="button" data-toggle="modal" data-target="#modal-menu-item-1"></button>
 								<div class="container-fluid food-picture">
 									<img src="assets/images/menu-items/food-item-1.jpg" alt="Beef salad"></div>
 									<div class="container-fluid food-info">
@@ -136,14 +136,8 @@
 						</tr>                                                                                                                           
 					</tbody>
 				</table>
-		
 			</div>
-		
-		
-		
-		
 		</article>
-
 
 		<footer class="container-fluid index-footer">
 			<div class="row d-flex justify-content-center">
@@ -153,6 +147,45 @@
 				<a href="https://www.youtube.com/" class="social-media-links" target="_blank"><i class="fab fa-youtube-square"></i></a>
 			</div>
 		</footer>
+
+        <!-------------------------------------------------Modals for menu-->
+		<div class="modal fade menu-modal-root" id="modal-menu-item-1" data-target="modal-menu-item-1" tabindex="-1" role="dialog" aria-labelledby="Menu item description and QR code" aria-hidden="true">
+			<div class="modal-dialog modal-lg menu-modals">
+				<div class="modal-content">
+				    <div class="modal-header">
+                        <h2>Beef Salad</h2>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                    <div class="menu-modal-info-wrapper">
+                        <table class="table">
+					        <tbody>
+						        <tr>
+                                    <td>
+                                        <div class="container-fluid modal-food-picture">
+                                            <img src="assets/images/menu-items/food-item-1.jpg" alt="Beef salad"></div>
+                                        <div class="container-fluid food-info">
+                                           <h2 class="food-title">Beef Salad</h2>
+                                            <p class="food-description">Organic beef, cherry tomatoes, peppers and mixed baby salad leaves, topped with flax seeds.</p>
+                                            <h3 class="food-price">€5.99</h3>
+                                        </div>
+                                    </td>
+						        </tr>
+					        </tbody>
+                        </table>
+						
+
+
+					    Large Modal
+                    </div>
+				</div>
+			</div>
+		</div>
+
+
+
+        
 
         <!-------------------------------------------------Boostrap Java Script-->
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

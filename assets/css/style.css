@@ -259,16 +259,47 @@ footer .social-media-links {
     text-align: right;
 }
 
-.menu-wrapper a { /*strectch a to cover menu item and description*/
-    height: 100%;
+.menu-wrapper button { /*strectch a to cover menu item and description*/
+    height: 96%;
+    width: 97%;
     display: block;
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    border: none;
+    outline:none;
+    background-color: rgba(0, 0, 0, 0);
+
 }
 
+/*------------------------------------------------------------ Menu modals */
+.menu-modals > .modal-content > .modal-header {
+    background-color: black;
+}
+
+.menu-modals > .modal-content > .modal-header > h2 {
+    margin: auto;
+}
+
+.menu-modals > .modal-content > .modal-header > .close{
+    font-family: Sans-serif;
+    font-size: 36px;
+    float: right;
+    color: #9bd496;
+}
+
+.menu-modal-info-wrapper {
+    background-color: black;
+    width: 100%;
+    border-top: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+
+.menu-modal-info-wrapper .modal-food-picture img {
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+}
 /*------------------------------------------------------------ Media Query */
 @media screen and (max-height: 635px) { 
     .main-article {    /*Allow hero image to overflow screen height too small*/
@@ -344,7 +375,6 @@ footer .social-media-links {
         width: 50%;
         border-radius: 0 10px 10px 0;
     }
-    
 }
 
 @media(min-width: 1281px) {
