@@ -55,7 +55,7 @@ body {
 }
 
 .navbar-nav .active {
-    background-color: #9bd496;
+    background-color: rgba(155,212,150,0.5);
 }
 
 .navbar-nav .active a {
@@ -116,15 +116,6 @@ body {
 .logo-position {
     margin-top: 3vh;
     width: 100%;
-}
-
-.table-split-line {
-    border: none;
-    margin: 0;
-    padding: 0;
-    height: 7px;
-    color: #9bd496;
-    background-color: #9bd496;
 }
 
 /*------------------------------------------------------------ Buttons */
@@ -208,7 +199,12 @@ footer .social-media-links {
     width: 100%;
     padding: 0;
     position: fixed;
-    background-position: center 50% center 50%;
+    top: 0;
+}
+
+.menu-maxwidth {
+    max-width: 1000px;
+    margin: auto;
 }
 
 .menu-article .flex-container {
@@ -221,16 +217,16 @@ footer .social-media-links {
     display: flex;
     flex: 100%;
     align-items: center;
-    justify-content: center;
     margin-bottom: 3vh;
 }
 
 .menupage-food-item {
     background: rgba(0,0,0,0.7);
     margin: 0 20px 0 20px;
-    min-height: 300px;
-    min-width: 300px;
+    min-height: 350px;
+    min-width: 350px;
 }
+
 
 /*------------------------------------------------------------ Media Query */
 @media screen and (max-height: 635px) { 
@@ -290,7 +286,6 @@ footer .social-media-links {
 
     .menu-article .flex-column {
         flex: 50%;
-        max-width: 50%;
     }
 }
 
