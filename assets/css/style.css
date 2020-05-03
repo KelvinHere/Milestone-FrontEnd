@@ -6,6 +6,7 @@
 body {
     font-family: 'Kavivanar', sans-serif;
     background: black;
+    color: #9bd496;
 }
 
 /*------------------------------------------------------------ Navbar */
@@ -189,7 +190,7 @@ footer .social-media-links {
     line-height: 0;
 }
 
-/*------------------------------------------------------------ Menu Page - Menu item */
+/*------------------------------------------------------------ Menu Page - Menu table */
 .menu-article-background {
     background-image: url("../images/menu/menu-background-sm.jpg");
     background-repeat: no-repeat;
@@ -202,31 +203,55 @@ footer .social-media-links {
     top: 0;
 }
 
-.menu-maxwidth {
-    max-width: 1000px;
-    margin: auto;
-}
-
-.menu-article .flex-container {
-    display: flex;
-    flex-wrap: wrap;
+.menu-wrapper > table {
     margin-top: 8vh;
 }
 
-.menu-article .flex-column {
+.menu-wrapper {
+    background: none;
+}
+
+.menu-wrapper td {
+    border-top: none;
     display: flex;
-    flex: 100%;
-    align-items: center;
-    margin-bottom: 3vh;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.menupage-food-item {
-    background: rgba(0,0,0,0.7);
-    margin: 0 20px 0 20px;
-    min-height: 350px;
-    min-width: 350px;
+.menu-wrapper h2 {
+    text-align: center;
+    margin-bottom: 4vh;
 }
 
+.menu-wrapper p {
+    text-align: center;
+    margin: auto;
+    padding-bottom: 4vh;
+}
+
+.menu-wrapper .food-picture {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-wrapper .food-picture img {
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.menu-wrapper .food-info {
+    padding-top: 15px;
+    background: rgba(0,0,0,0.8);
+    border-radius: 0 0 10px 10px;
+}
+
+.food-info > .food-title {
+    color: #9bd496;
+}
+
+.food-info > .food-description {
+    color: #9bd496;
+}
 
 /*------------------------------------------------------------ Media Query */
 @media screen and (max-height: 635px) { 
@@ -270,7 +295,7 @@ footer .social-media-links {
         margin-bottom: 25px;
     }
 
-    .food-table .flex-column {
+    .food-table > .flex-container > .flex-column {
     flex: 33.33%;
     max-width: 33.33%;
     }
@@ -284,9 +309,26 @@ footer .social-media-links {
         background-position: center center;
     }
 
-    .menu-article .flex-column {
-        flex: 50%;
+    .menu-wrapper {
+        max-width: 1000px;
+        margin: auto;
     }
+
+    .menu-wrapper .food-picture {
+        flex: 50%;
+        width: 50%;
+    }
+
+    .menu-wrapper .food-picture img {
+        border-radius: 10px 0 0 10px;
+    }
+
+    .menu-wrapper .food-info {
+        flex: 50%;
+        width: 50%;
+        border-radius: 0 10px 10px 0;
+    }
+    
 }
 
 @media(min-width: 1281px) {
