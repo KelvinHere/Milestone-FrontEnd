@@ -271,12 +271,26 @@ footer .social-media-links {
 }
 
 /*------------------------------------------------------------ Menu modals */
-.menu-modals > .modal-content > .modal-header {
+.modal-bg-color {
+    background-color: black;
+    border-color: #9bd496;
+    border-width: 2px;
+}
+
+.menu-modals > .modal-content {
     background-color: black;
 }
 
+.menu-modals .modal-header > button {
+    position: absolute;
+    right: 20px;
+}
+
 .menu-modals > .modal-content > .modal-header > h2 {
+    text-align: center;
     margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .menu-modals > .modal-content > .modal-header > .close{
@@ -287,9 +301,7 @@ footer .social-media-links {
 }
 
 .menu-modal-info-wrapper {
-    background-color: black;
     width: 100%;
-    border-top: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -298,7 +310,68 @@ footer .social-media-links {
 
 .menu-modal-info-wrapper .modal-food-picture img {
     max-width: 100%;
-    border-radius: 10px 10px 0 0;
+}
+
+.menu-modal-info-wrapper .food-info h2{
+    margin-top: 1vh;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.menu-modal-info-wrapper .food-info h3{
+    margin-top: 1vh;
+    font-size: 16px;
+    text-align: center;
+}
+
+.menu-modal-info-wrapper .food-info p{
+    padding-top: 2vh;
+    font-size: 16px;
+    color: orange;
+    text-align: center;
+}
+
+.price-and-qr-wrapper {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.price-and-qr-wrapper > button {
+    margin-left: 10px;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    font-size: 25px;
+    background-color: red;
+    color: black;
+}
+
+.price-and-qr-wrapper > p {
+    margin-bottom: 0;
+    padding: 3px;
+    margin-top: 1vh;
+    margin-right: 10px;
+    background-color: #9bd496;
+    color: black;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+.item-allergens-wrapper {
+    margin-top: 1vh;
+    text-align: center;
+}
+
+.item-allergens-wrapper img{
+    display: inline-block;
+    margin: auto;
+}
+
+
+
+.qr-hidden img {
+    display: block;
+    margin: auto;
 }
 /*------------------------------------------------------------ Media Query */
 @media screen and (max-height: 635px) { 
