@@ -307,6 +307,7 @@ footer .social-media-links {
 
 .menu-modals > .modal-content > .modal-header {
     margin: auto;
+    padding-bottom: 0;
 }
 
 .menu-modals > .modal-content > .modal-header > h2 {
