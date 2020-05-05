@@ -13,14 +13,20 @@ body {
 .navbar {
     position: fixed;
     width: 100%;
-    background: rgba(0,0,0,0.7);
+    background: rgba(0,0,0,0.8);
     padding: 0;
     z-index: 100;
     top: 0;
 }
 
 .navbar a {
-    color: #9bd496;
+    color: #9ccc9c;
+}
+
+.navbar > a {
+    font-weight: bold;
+    font-family: 'Caveat', sans-serif;
+    font-size: 30px;
 }
 
 .nav-brand {
@@ -46,13 +52,17 @@ body {
     color: black;
 }
 
+.navbar-expand-lg {
+    padding-bottom: 2px;
+}
+
 .nav-social-media-bar {
     padding-left: 20px;
     line-height: 0;
 }
 
 .navbar-menu-icon {
-    color: #9bd496;
+    color: #9ccc9c;
 }
 
 .navbar-nav .active {
@@ -68,7 +78,7 @@ body {
     padding-right: 1px;
     margin: 0 15px 0 0;
     font-size: 32px;
-    color: #9bd496;
+    color: #9ccc9c
 }
 
 .nav-social-media-bar .social-media-links:hover {
@@ -184,8 +194,8 @@ footer .social-media-links {
     padding: 5px 6px 5px 6px;
     margin: 0 5px 5px 5px;
     font-size: 32px;
-    color: #9bd496;
-    background-color: rgba(0,0,0,0.3);
+    color: #9ccc9c;
+    background-color: rgba(0,0,0,0.6);
     border-radius: 25%;
     line-height: 0;
 }
@@ -272,7 +282,7 @@ footer .social-media-links {
 
 /*------------------------------------------------------------ Menu modals */
 .modal-bg-color {
-    background-color: black;
+    background-color: none;
     border-color: #9bd496;
     border-width: 2px;
 }
@@ -287,12 +297,16 @@ footer .social-media-links {
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 15px;
-    background-color: black;
+    background-color: rgba(0,0,0,0.88);
 }
 
 .menu-modals .modal-header > button {
     position: absolute;
     right: 20px;
+}
+
+.menu-modals > .modal-content > .modal-header {
+    margin: auto;
 }
 
 .menu-modals > .modal-content > .modal-header > h2 {
@@ -320,7 +334,7 @@ footer .social-media-links {
 .menu-modal-info-wrapper .modal-food-picture {
     overflow: hidden;
     padding: 0;
-    border-radius: 5px 5px 0 0;
+    border-radius: 5px;
 }
 
 .menu-modal-info-wrapper .modal-food-picture img {
@@ -363,14 +377,13 @@ footer .social-media-links {
     font-size: 16px;
     color: orange;
     text-align: center;
-    background-color: rgb(20,20,20);
-    border-radius: 0 0 15px 15px;
 }
 
 .price-and-qr-wrapper > button {
     margin-top: 1vh;
     margin-bottom: 1vh;
     font-size: 25px;
+    height: 100%;
     background-color: red;
     color: black;
 }
@@ -378,6 +391,7 @@ footer .social-media-links {
 .price-and-qr-wrapper > p {
     padding: 3px;
     margin-top: 1vh;
+    margin-bottom: 0px !important;
     background-color: #9bd496;
     color: black;
     font-size: 30px;
@@ -397,6 +411,7 @@ footer .social-media-links {
 .qr-hidden img {
     display: block;
     margin: auto;
+    padding-top: 12px;
     padding-bottom: 15px;
 }
 
