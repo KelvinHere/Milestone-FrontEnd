@@ -416,21 +416,21 @@ footer .social-media-links {
 }
 
 /*------------------------------------------------------------ Location style */
+.location-article > .fluid-container {
+    background-color: rgba(0,0,0,0.6);
+    padding-top: 50px;
+}
+
 .location-article > .fluid-container > .row {
     margin-left: 0;
     margin-right: 0;
-}
-
-.map-column {
-    background-color: rgba(0,0,0,0.6);
-    padding-top: 6vh;
 }
 
 .map-column .address *{
     text-align: center;
 }
 
-.map-column > h2 {
+.location-columns > h2 {
     padding-top: 2vh;
     text-align: center;
 }
@@ -457,6 +457,16 @@ footer .social-media-links {
     height: 100% !important;
 }
 
+.hours-column td {
+    color: #9bd496;
+}
+
+.hours-column table tr {
+    border-top: hidden;
+}
+.hours-column .table-wrapper {
+    max-width: 100px;
+}
 
 /*------------------------------------------------------------ Media Query */
 @media screen and (max-height: 635px) { 
