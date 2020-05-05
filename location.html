@@ -10,7 +10,7 @@
         <title>FreshGreen Takeout</title>
     </head>
 
-	<body class="index-page">
+	<body>
 		<!-------------------------------------------------Navigation Bar-->
 		<nav class="navbar navbar-expand-lg">
 			<a class="nav-brand" href="index.html">FreshGreen</a>
@@ -20,10 +20,10 @@
 		
 			<div class="collapse navbar-collapse" id="navbarToggler">
 				<ul class="navbar-nav ml-auto">
-                    <li class="active nav-item"><a href="index.html" class="dropdown-item" type="button">Home</a></li>
+                    <li class="nav-item"><a href="index.html" class="dropdown-item" type="button">Home</a></li>
                     <li class="nav-item"><a href="menu.html" class="dropdown-item" type="button">Menu</a></li>
                     <li class="nav-item"><a href="index.html" class="dropdown-item" type="button">Events</a></li>
-                    <li class="nav-item"><a href="location.html" class="dropdown-item" type="button">Location</a></li>
+                    <li class="active nav-item"><a href="location.html" class="dropdown-item" type="button">Location</a></li>
                     <li class="nav-social-media-item nav-item">
                         <div class="nav-social-media-bar">
                             <a href="https://www.facebook.com/" class="social-media-links" target="_blank"><i class="fab fa-facebook-square"></i></a>
@@ -36,34 +36,30 @@
 			</div>
 		</nav>
 
-        <!-------------------------------------------------Hero image-->
-        <article class="container-fluid main-article">
+        <!-------------------------------------------------location-->
+        <div class="menu-article-background"></div>
 
-
-            <!-------------------------------------------------Logo image-->
-            <div class="container-fluid logo-position">
+		<article class="location-article">
+            <div class="fluid-container">
                 <div class="row">
-                    <div class="col-12">
-                        <img src="assets/images/home/logo-large-filled-alpha.png" alt="Fresh Green Logo" class="logo-large-image d-block mx-auto mt-5"/>
+                    <div class="col-12 col-md-8 map-column location-columns">
+                        <h2>Location</h2>
+                        <div class="map-wrapper">
+                            <div class="iframe-wrapper">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d582.4449889346968!2d-8.474258865332938!3d54.27247013434567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sie!4v1588696531328!5m2!1sen!2sie" width="200" height="100" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                            </div>
+                            <div class="address">
+                                <h3>Address :</h3>
+                                <p>194 Hyde Bridge<br/>Sligo Town</br>Co Sligo</br>F93 SW92</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>  
-
-            <!-------------------------------------------------Navigation buttons-->
-            <div class="container-fluid button-position">
-                <div class="row main-buttons-container">
-                    <div class="col-12 col-md-4 text-center">
-                        <a href="menu.html" type="button" class="btn btn-outline-warning index-large-buttons">Menu</a>
-                    </div>
-                    <div class="col-12 col-md-4 text-center buttons-on-image">
-                        <a href="events.html" type="button" class="btn btn-outline-warning index-large-buttons">Events</a>
-                    </div>
-                    <div class="col-12 col-md-4 text-center buttons-on-image">
-                        <a href="location.html" type="button" class="btn btn-outline-warning index-large-buttons">Location</a>
+                    <div class="col-12 col-md-4 bg-primary hours-column location-columns">
+                    jlkhkjhlkjh<br/>sdkljhkjh<br/>sdkljhkjh<br/>sdkljhkjh<br/>sdkljhkjh<br/>sdkljhkjh<br/>sdkljhkjh<br/>sdkljhkjh<br/>sdkljhkjh
                     </div>
                 </div>
             </div>
-        </article>
+		</article>
 
         <!-------------------------------------------------Food Table-->
         <div class="food-table">
@@ -87,7 +83,7 @@
         </div>
 
         <!-------------------------------------------------Footer social media buttons-->
-		<footer class="container-fluid">
+		<footer class="container-fluid index-footer">
 			<div class="row d-flex justify-content-center">
 				<a href="https://www.facebook.com/" class="social-media-links" target="_blank"><i class="fab fa-facebook-square"></i></a>
 				<a href="https://www.instagram.com" class="social-media-links" target="_blank"><i class="fab fa-instagram-square"></i></a>
@@ -99,6 +95,6 @@
         <!-------------------------------------------------Boostrap Java Script-->
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     </body>
 </html>

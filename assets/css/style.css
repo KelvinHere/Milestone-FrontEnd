@@ -277,7 +277,6 @@ footer .social-media-links {
     border: none;
     outline:none;
     background-color: rgba(0, 0, 0, 0);
-
 }
 
 /*------------------------------------------------------------ Menu modals */
@@ -415,6 +414,49 @@ footer .social-media-links {
     padding-top: 12px;
     padding-bottom: 15px;
 }
+
+/*------------------------------------------------------------ Location style */
+.location-article > .fluid-container > .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.map-column {
+    background-color: rgba(0,0,0,0.6);
+    padding-top: 6vh;
+}
+
+.map-column .address *{
+    text-align: center;
+}
+
+.map-column > h2 {
+    padding-top: 2vh;
+    text-align: center;
+}
+
+.map-wrapper {
+    max-width: 700px;
+    margin: auto;
+}
+
+.map-wrapper > .iframe-wrapper {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 15px;
+    margin: 20px 20px 20px 20px;
+}
+
+.map-wrapper .iframe-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
 
 /*------------------------------------------------------------ Media Query */
 @media screen and (max-height: 635px) { 

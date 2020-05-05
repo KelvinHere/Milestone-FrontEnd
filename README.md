@@ -1,6 +1,6 @@
 # Front End Milestone Project - *Restaurant Website*
 
-This milestone project demonstrates my ability to create a static website using **HTML5, CCS and CDNs**.
+This milestone project demonstrates my ability to create a "mobile first" website using **HTML5, CCS and CDNs**.
 
 Website Link : https://kelvinhere.github.io/Milestone-FrontEnd/
 
@@ -104,6 +104,7 @@ Created by KelvinHere
 - Food allergen icons - [Erudus Food Allergy Icons](https://erudus.com/erudus-food-allergy-icons/)
 - Crossed grain symbol - [Coeliac Society of Ireland](https://www.coeliac.ie/crossed-grain-symbol/)
 - Vegetarian symbol - [European Vegetarian Union](https://www.euroveg.eu/)
+- Free online QR code generator - [QR Code Monkey](https://www.qrcode-monkey.com/)
 
 ### Acknowledgements
 
