@@ -308,8 +308,30 @@ footer .social-media-links {
     position: relative;
 }
 
+.menu-modal-info-wrapper .modal-food-picture {
+    overflow: hidden;
+    padding: 0;
+    border-radius: 5px 5px 0 0;
+}
+
 .menu-modal-info-wrapper .modal-food-picture img {
     max-width: 100%;
+    animation-name: modal-image-zoom;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes modal-image-zoom {
+  from{
+    transform: scale3d(1,1,1);
+  }
+  to{
+    transform: scale3d(1.05, 1.05, 1);
+  }
+}
+
+.menu-modal-info-wrapper .food-info {
+    padding: 0;
 }
 
 .menu-modal-info-wrapper .food-info h2{
@@ -327,6 +349,8 @@ footer .social-media-links {
 
 .menu-modal-info-wrapper .food-info p{
     padding-top: 2vh;
+    padding-bottom: 2vh;
+    margin-bottom: 0;
     font-size: 16px;
     color: orange;
     text-align: center;
@@ -367,12 +391,11 @@ footer .social-media-links {
     margin: auto;
 }
 
-
-
 .qr-hidden img {
     display: block;
     margin: auto;
 }
+
 /*------------------------------------------------------------ Media Query */
 @media screen and (max-height: 635px) { 
     .main-article {    /*Allow hero image to overflow screen height too small*/
