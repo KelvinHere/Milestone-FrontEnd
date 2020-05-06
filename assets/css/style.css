@@ -464,8 +464,49 @@ footer .social-media-links {
 .hours-column table tr {
     border-top: hidden;
 }
-.hours-column .table-wrapper {
-    max-width: 100px;
+
+.address > * {
+    text-align: center;
+}
+
+.address > p {
+    margin-bottom: 50px;
+}
+
+.opening-hours-table {
+    max-width: 100%;
+}
+
+.opening-hours-table td{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.opening-hours-table .no-padding{
+    padding-left: 0;
+    padding-right: 0;
+    width: 10px !important;
+}
+
+.table-wrapper {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+/*------------------------------------------------------------ Events Page */
+.events-article > .fluid-container > .row {
+    margin: 0;
+    padding: 0;
+}
+
+.events-column {
+    padding-top: 60px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.events-column > h3 {
+    text-align: center;
 }
 
 /*------------------------------------------------------------ Media Query */
@@ -543,7 +584,14 @@ footer .social-media-links {
         width: 50%;
         border-radius: 0 10px 10px 0;
     }
-}
+
+    .location-columns {
+        margin-bottom: 50px;
+    }
+    
+    .address > p{
+        margin-bottom: 0px;
+    }
 
 @media(min-width: 1281px) {
     .main-article {

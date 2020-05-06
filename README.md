@@ -105,6 +105,7 @@ Created by KelvinHere
 - Crossed grain symbol - [Coeliac Society of Ireland](https://www.coeliac.ie/crossed-grain-symbol/)
 - Vegetarian symbol - [European Vegetarian Union](https://www.euroveg.eu/)
 - Free online QR code generator - [QR Code Monkey](https://www.qrcode-monkey.com/)
+- Cafe images (Free for commercial use - No attribution required) [Pixabay](https://pixabay.com/)
 
 ### Acknowledgements
 
