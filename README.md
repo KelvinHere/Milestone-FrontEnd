@@ -89,7 +89,9 @@ videos of events.  This page's goal is to give the customers a sense of inclusio
 	- This project uses **Draw.io** for rapid wireframe prototyping
 
 ## Testing
-- TODO ################ 
+
+### HTML Validator
+- Each website page has been checked with the HTML validator at validator.w3.org, errors and warnings have been corrected (NOT FINALISED) 
 
 ## Credits
 
