@@ -437,8 +437,17 @@ footer .social-media-links {
     max-width: 1281px;
 }
 
-.map-column .address *{
+.address * {
     text-align: center;
+}
+
+.address > h3 {
+    margin-bottom: 20px;
+}
+
+.address > p {
+    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 
 .location-columns > .location-cell-border > h2 {
@@ -471,6 +480,7 @@ footer .social-media-links {
     left: 0;
     width: 100% !important;
     height: 100% !important;
+    border: 0px;
 }
 
 .gps-wrapper {
@@ -483,14 +493,6 @@ footer .social-media-links {
 
 .hours-column table tr {
     border-top: hidden;
-}
-
-.address > * {
-    text-align: center;
-}
-
-.address > p {
-    margin-bottom: 50px;
 }
 
 .opening-hours-table {
@@ -710,10 +712,6 @@ footer .social-media-links {
         margin-top: 20px;
     }
     
-    .address > p {
-        margin-bottom: 0px;
-    }
-
     .events-article-background {
         background-image: url("../images/events/events-bg-lg.jpg");
     }
