@@ -157,7 +157,7 @@ body {
     width: 220px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background: rgba(0,0,0,0.3);
+    background: rgba(0,0,0,0.6);
     font-size: 25px;
 }
 
@@ -269,7 +269,7 @@ footer .social-media-links {
     text-align: right;
 }
 
-.menu-wrapper button { /*strectch a to cover menu item and description*/
+.menu-wrapper button { /*cover whole of menu item*/
     height: 96%;
     width: 97%;
     display: block;
@@ -384,8 +384,14 @@ footer .social-media-links {
     margin-bottom: 1vh;
     font-size: 25px;
     height: 100%;
-    background-color: red;
+    background-color: orange;
+    border-color: orange;
     color: black;
+}
+
+.price-and-qr-wrapper > button:hover {
+    background-color: #FF7C00;
+    border-color: white;
 }
 
 .price-and-qr-wrapper > p {
@@ -417,20 +423,19 @@ footer .social-media-links {
 
 /*------------------------------------------------------------ Location style */
 .location-article > .fluid-container {
-    background-color: rgba(0,0,0,0.6);
-    padding-top: 50px;
+    padding-top: 60px;
 }
 
 .location-article > .fluid-container > .row {
-    margin-left: 0;
-    margin-right: 0;
+    margin: auto;
+    max-width: 1281px;
 }
 
 .map-column .address *{
     text-align: center;
 }
 
-.location-columns > h2 {
+.location-columns > .location-cell-border > h2 {
     padding-top: 2vh;
     text-align: center;
 }
@@ -462,6 +467,10 @@ footer .social-media-links {
     height: 100% !important;
 }
 
+.gps-wrapper {
+    text-align: center;
+}
+
 .hours-column td {
     color: #9bd496;
 }
@@ -485,12 +494,23 @@ footer .social-media-links {
 .opening-hours-table td{
     padding-top: 8px;
     padding-bottom: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .opening-hours-table .no-padding{
     padding-left: 0;
     padding-right: 0;
     width: 10px !important;
+}
+
+.location-cell-border {
+    border: 2px solid #9bd496;
+    padding: 10px 0 10px 0;
+    margin: 0 20px 0 20px;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.8);
+    height: 100%;
 }
 /*------------------------------------------------------------ Events Page */
 .events-article-background {
@@ -528,6 +548,8 @@ footer .social-media-links {
 
 .event-cell-wrapper > p {
     text-align: center;
+    padding-top: 20px;
+    margin: 0 20px 60px 20px;
 }
 
 .event-image-wrapper {
@@ -550,6 +572,10 @@ footer .social-media-links {
     padding-bottom: 20px;
 }
 
+.enter-draw-wrapper p {
+    margin-top: 20px;
+}
+
 .enter-draw-form {
     padding: 20px 10px 0 10px;
 }
@@ -570,6 +596,21 @@ footer .social-media-links {
 
 .modal-event-form {
     border: none;
+}
+
+.events-button {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    font-size: 25px;
+    height: 100%;
+    background-color: orange;
+    border-color: orange;
+    color: black;
+}
+
+.events-button:hover {
+    background-color: #FF7C00;
+    border-color: white;
 }
 
 /*------------------------------------------------------------ Media Query */
