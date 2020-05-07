@@ -100,6 +100,7 @@ body {
 .fa-youtube-square:hover {
     color: #c4302b;
 }
+
 /*------------------------------------------------------------ Index page */
 .main-article {
     background-image: url("../images/home/hero-bg-sm.jpg");
@@ -514,6 +515,7 @@ footer .social-media-links {
     background-color: rgba(0,0,0,0.8);
     height: 100%;
 }
+
 /*------------------------------------------------------------ Events Page */
 .events-article-background {
     background-image: url("../images/events/events-bg-sm.jpg");
@@ -616,9 +618,6 @@ footer .social-media-links {
     border-color: white;
 }
 
-button:focus {
-    outline: none !important;
-}
 /*------------------------------------------------------------ Media Query */
 @media screen and (max-height: 635px) { 
     .main-article {    /*Allow hero image to overflow screen height too small*/
@@ -708,7 +707,7 @@ button:focus {
         margin-top: 20px;
     }
     
-    .address > p{
+    .address > p {
         margin-bottom: 0px;
     }
 
@@ -723,6 +722,7 @@ button:focus {
     .enter-draw-wrapper {
         display: none;
     }
+}
 
 @media(min-width: 1281px) {
     .main-article {
