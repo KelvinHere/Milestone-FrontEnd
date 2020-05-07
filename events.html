@@ -43,30 +43,40 @@
             <div class="fluid-container events-wrapper">
                 <div class="row">
                     <div class="col-12 col-lg-8 px-0 events-column">
-                        <h3>This weeks event</h3>
-                        <div class="event-image-wrapper">
-                            <img src="assets/images/cafe-items/cafe-pixabay-doughnuts.jpg">
-                        </div>
-                        <p>Gourmet doughnut with every main all this week!</p>
-                        <div class="enter-draw-wrapper">
-                            <button class="btn btn-outline-danger">Enter Draw</button>
+                        <div class="event-cell-wrapper">
+                            <h3>This weeks event</h3>
+                            <div class="event-image-wrapper">
+                                <img src="assets/images/cafe-items/cafe-pixabay-doughnuts.jpg">
+                            </div>
+                            <p>Gourmet doughnut with every main all this week!</p>
+                            <div class="enter-draw-wrapper">
+                                <button class="btn btn-outline-danger" data-toggle="modal" data-target="#modal-enter-draw">Submit</button>
+                            </div>
                         </div>
 
                     </div>
                     <div class="col-12 col-lg-4 px-0 enter-draw-column">
-                        <h3>Enter Draw</h3>
-                        enter draw </br>
-                        enter draw </br>
-
-                        enter draw </br>enter draw </br>
-                        enter draw </br>
-                        enter draw </br>
-                        enter draw </br>
-
-                        enter draw </br>enter draw </br>
-
+                        <div class="event-cell-wrapper">
+                            <h3>Enter Draw</h3>
+                            <form class="enter-draw-form">
+                                <div class="form-group">
+                                    <label for="name-id">Name</label>
+                                    <input type="text" class="form-control" id="name-id" placeholder="Enter Name" required>
+                                </div>                            
+                                <div class="form-group">
+                                    <label for="email-input-id">Email address</label>
+                                    <input type="email" class="form-control" id="email-input-id" placeholder="Enter e-mail" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="entry-code-id">Entry code</label>
+                                    <input type="text" pattern="[A-Za-z]{5}" class="form-control" id="entry-code-id" placeholder="Entry code from reciept" required>
+                                </div>
+                                <div class="form-group form-button">
+                                    <button type="submit" value="submit" class="btn btn-outline-danger">Enter Draw</button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
-                   
                 </div>
             </div>
 		</article>
@@ -76,7 +86,7 @@
             <div class="food-table">
                 <div class="flex-container">
                     <div class="flex-column">
-                        <img src="assets/images/menu-items/food-item-1.jpg" alt="Beef salad" class="food-table-image">
+                        <img src="assets/images/menu-items/food-item-6.jpg" alt="Smoked salmon and poached egg on toast" class="food-table-image">
                         <img src="assets/images/cafe-items/cafe-pixabay-1.jpg" alt="Cafe coffee bar" class="food-table-image">
                         <img src="assets/images/menu-items/food-item-3.jpg" alt="Avocado on toast" class="food-table-image">
                     </div>
@@ -103,6 +113,36 @@
 				<a href="https://www.youtube.com/" class="social-media-links" target="_blank"><i class="fab fa-youtube-square"></i></a>
 			</div>
 		</footer>
+
+        <div class="modal fade menu-modal-root" id="modal-enter-draw" data-target="modal-enter-draw" tabindex="-1" role="dialog" aria-labelledby="Menu item description and QR code" aria-hidden="true">
+			<div class="modal-dialog modal-lg menu-modals">
+				<div class="modal-content">
+				    <div class="modal-header modal-event-form">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+						</button>
+
+                        <div class="event-cell-wrapper-modal">
+                            <h3>Enter Draw</h3>
+                            <form class="enter-draw-form-modal">
+                                <div class="form-group">
+                                    <label for="name-id-modal">Name</label>
+                                    <input type="text" class="form-control" id="name-id-modal" placeholder="Enter Name" required>
+                                </div>                            
+                                <div class="form-group">
+                                    <label for="email-input-id">Email address</label>
+                                    <input type="email" class="form-control" id="email-input-id-modal" placeholder="Enter e-mail" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="entry-code-id">Entry code</label>
+                                    <input type="text" pattern="[A-Za-z]{5}" class="form-control" id="entry-code-id-modal" placeholder="Entry code from reciept" required>
+                                </div>
+                                <div class="form-group form-button">
+                                    <button type="submit" value="submit" class="btn btn-outline-danger">Enter Draw</button>
+                                </div>
+                            </form>
+                        </div>
+
 
         <!-------------------------------------------------Boostrap Java Script-->
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
