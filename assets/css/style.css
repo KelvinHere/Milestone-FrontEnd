@@ -100,7 +100,7 @@ body {
 .fa-youtube-square:hover {
     color: #c4302b;
 }
-/*------------------------------------------------------------ General */
+/*------------------------------------------------------------ Index page */
 .main-article {
     background-image: url("../images/home/hero-bg-sm.jpg");
     background-repeat: no-repeat;
@@ -121,12 +121,20 @@ body {
     max-height: 40vh;
     width: auto;
     margin-bottom: 20px;
-    min-height: 206px;
 }
 
 .logo-position {
     margin-top: 3vh;
     width: 100%;
+}
+
+.catchphrase p {
+    display: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0 0 7px black, 0 0 7px black, 0 0 7px black, 0 0 7px black;
+    text-align: center;
+    margin: 0 20px 0 20px;
 }
 
 /*------------------------------------------------------------ Buttons */
@@ -306,6 +314,7 @@ footer .social-media-links {
 
 .menu-modals > .modal-content > .modal-header {
     margin: auto;
+    width: 100%;
     padding-bottom: 0;
 }
 
@@ -339,18 +348,6 @@ footer .social-media-links {
 
 .menu-modal-info-wrapper .modal-food-picture img {
     max-width: 100%;
-    animation-name: modal-image-zoom;
-    animation-duration: 10s;
-    animation-fill-mode: forwards;
-}
-
-@keyframes modal-image-zoom {
-  from{
-    transform: scale3d(1,1,1);
-  }
-  to{
-    transform: scale3d(1.05, 1.05, 1);
-  }
 }
 
 .menu-modal-info-wrapper .food-info {
@@ -377,6 +374,11 @@ footer .social-media-links {
     font-size: 16px;
     color: orange;
     text-align: center;
+}
+
+.price-and-qr-wrapper {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .price-and-qr-wrapper > button {
@@ -417,7 +419,7 @@ footer .social-media-links {
 .qr-hidden img {
     display: block;
     margin: auto;
-    padding-top: 12px;
+    padding-top: 5px;
     padding-bottom: 15px;
 }
 
@@ -528,7 +530,6 @@ footer .social-media-links {
 .events-wrapper > .row {
     max-width: 1281px;
     margin: auto;
-    /*min-height: 90vh;*/
     padding-top: 60px;
     padding-bottom: 15px;
 }
@@ -544,9 +545,10 @@ footer .social-media-links {
 
 .event-cell-wrapper > h3 {
     text-align: center;
+    margin-bottom: 20px;
 }
 
-.event-cell-wrapper > p {
+.event-cell-wrapper p {
     text-align: center;
     padding-top: 20px;
     margin: 0 20px 60px 20px;
@@ -588,6 +590,7 @@ footer .social-media-links {
 
 .event-cell-wrapper-modal {
     border: none;
+    margin: auto;
 }
 
 .event-cell-wrapper-modal * {
@@ -613,6 +616,9 @@ footer .social-media-links {
     border-color: white;
 }
 
+button:focus {
+    outline: none !important;
+}
 /*------------------------------------------------------------ Media Query */
 @media screen and (max-height: 635px) { 
     .main-article {    /*Allow hero image to overflow screen height too small*/
@@ -623,8 +629,18 @@ footer .social-media-links {
         float: left;
     }
 
-    .index-page footer {    /* Remove footer if there is no room on screen */
+    .index-page footer {    /* Remove footer if there is no room on home screen */
         display: none;
+    }
+}
+
+@media(min-width: 769px) {
+    .logo-large-image { /*offset for logo to line up properly with button position change*/
+        padding-left: 125px;
+    }
+    
+    .catchphrase p {
+        display: block;
     }
 }
 
@@ -644,11 +660,6 @@ footer .social-media-links {
 
     .navbar-collapse a {
         font-size: 18px;
-    }
-
-    .logo-large-image {
-        padding-left: 125px;
-        
     }
 
     .button-position {
