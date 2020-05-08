@@ -4,28 +4,25 @@ This milestone project demonstrates my ability to create a "mobile first" websit
 
 Website Link : https://kelvinhere.github.io/Milestone-FrontEnd/
 
-This is a restaurant website, its aim is to attract customers to boost its sales and give the user QR codes for self service payment.  The main page quickly gives users an idea of the style of food available and ethos of the company.  This website also includes an **online 
-menu** with prices and expandable nutrition/allergen info and **QR code** for quick ordering.  A **location page** with map link and opening hours.
+This restaurant is aimed at workers looking for quick healthy food and will be designed to give this impresson via color palet and backgound images through the site.
 
-The restaurant is aimed at health conscious workers.  A customer **Event** page will encourage repeat custom via events, discounts and free 
-one off workplace lunch deliveries by draw.
-
+This restaurant websites aim is to attract customers and boost sales.  The main page quickly gives users an idea of the style of food available and ethos of the company.  This website also includes an **online 
+menu** with prices and expandable nutrition/allergen information and **QR code** for quick automatic ordering.  A **location page** with map link and opening hours. A customer **Event** page will encourage repeat custom via weekly events, discounts and free workplace lunch deliveries won by draw.
 
 ## UX
 
 This website is for health conscious workers looking to buy good quality, healthy fast food.  
 Primarily the users will want to view the different menu items quickly to make a dining choice.  The best way to achieve this is a quick modern 
-looking interface to access these choices with as few clicks as possible, from the main page which will have a “dish of the day” the rest of the 
-menu and location information will be accessible by one click.
+looking interface to access these choices with as few clicks as possible, from the main page the rest of the menu and location information are accessible by one click.
 
 #### User stories
-* As Bob I'm a previous customer, I want to choose something to eat because I'm hungry.
+* As Bob a previous customer, I want to choose something to eat because I'm hungry.
 * As Charlie, a friend recommended the restaurant, I want to find out where it is so I can visit.
 * As Sue, an allergy sufferer, I want to view the allergens in the food so I don’t have a bad reaction.
 * As Bill, a serial customer, I want to know this week's event, so I can try to win the office delivery draw.
-* As Pat, a health conscious person, I want to know the nutrition information of my lunch, so I can stay within my nutrition boundaries.
+* As Pat, a health conscious person, I want to know the ingredients of my lunch, so I can stay within my nutrition boundaries.
 * As Frank, a shift worker, I want to know the opening hours, so I am not wasting a trip to the restaurant. 
-* As Paulie, I want to order without talking to anyone, I will use the QR code and self service option.
+* As Paulie, I want to order without talking to anyone, I want to use the QR code self service option.
 
 #### wireframes
 ##### Mobile wireframes
@@ -47,31 +44,38 @@ menu and location information will be accessible by one click.
 
 ##### Main page
 * A hero image to display the kind of foods available and set the tone of the company ethos.  This will have the restaurant name, hero image, 
-dish of the day and links to all other pages on the site.  Scrolling on this site will get you to a footer with an instant menu download PDF
+and links to all other pages on the site.
 
 ##### Food Menu Page
-* Will show off the restaurants dishes, with an at a glance allergen/suitable for icons.  
-* Menu items will be clickable, opening up a larger image in a bootstrap modal, this will give more information on nutrition and allergens.  
-* From the menuitem model there will be an “I want this” button that will open another modal with the name of the food, the address/opening 
-hours and a map with viewable street names.
+* Shows off the restaurants dishess.
+* Menu items are clickable, opening up a larger image in a bootstrap modal, this gives more information on nutrition and allergens.  
+* From the menu item model there will be a QR order button that will expose a QR code to self service order in the restraunt.
 
 ##### Events page
-* A page to show current events and eligibility to enter delivery draws through repeat custom.  Under this information will be photographs and 
-videos of events.  This page's goal is to give the customers a sense of inclusion and community.
+* A page to show current events and enter a weekly delivery draw.  This page's goal is to give the customers a reason to regularly access the website.
 * This page will have an entry form for the draw that will take these inputs from the user :-
     * Name
-    * Workplace address
     * Email
-    * Entry Code (on receipt)
+    * Entry Code (5 digit code on receipt)
 
 ##### Location page
 * A simple page with opening hours, address and an embedded google maps link and GPS coordinates.
  
 ### Existing Features
-- //TODO ################ 
+- Background image positions changes depending screen width.
+- Responsive design will rearrange buttons / columns / tables to appropriate sizes depending on resolution of screen.
+- Navigation will collapse to menu icon on mobile to avoid screen being too busy, in this case social media icons will be displayed as footer.
+- Social media icons move to top navigation bar at higher resolutions.
+- Width of desktop elements are capped to avoid ugly layout and stretched items at very high resolutions.
+- Hidden QR codes that only take up screen real estate if needed by the user.
+- Footer on main page will hide before it clashes with navigation buttons.
+- Background images available in different resolutions depending screen size starting with lower resolutions for mobile, to reduce used badwidth and speed up site load times over mobile.
+- Menu items are clickable and give modal with more in depth information about item.
+- Events page enter draw form is available as a modal through a button on mobile or displayed immediatley on larger screens.
+- Footer images of food items are also a link to the menu page.
 
 ### Features Left to Implement
-- //TODO ################ 
+- None
 
 ## Technologies Used
 
@@ -93,6 +97,17 @@ videos of events.  This page's goal is to give the customers a sense of inclusio
 ### HTML Validator
 - Each website page has been checked with the HTML validator at validator.w3.org, errors and warnings have been corrected (NOT FINALISED) 
 
+### Visual inspection
+* Through chrome broswer inspect, layout and features tested on :-
+    * Desktop - Variable resolutions from 2560 x 1440 to 1920 x 720
+    * Moto G4
+    * Galaxy S5
+    * Pixel 2/2XL
+    * iPhone 5/SE/6/7/8
+    * iPhone 6/7/8 plus
+    * iPhone X
+    * iPad / iPad Pro
+
 ## Credits
 
 Created by KelvinHere
@@ -102,17 +117,17 @@ Created by KelvinHere
 
 ### Media
 
-- Edwin my brother the digital photographer
+- Edwin - digital photographer
 - Food allergen icons - [Erudus Food Allergy Icons](https://erudus.com/erudus-food-allergy-icons/)
 - Crossed grain symbol - [Coeliac Society of Ireland](https://www.coeliac.ie/crossed-grain-symbol/)
 - Vegetarian symbol - [European Vegetarian Union](https://www.euroveg.eu/)
 - Free online QR code generator - [QR Code Monkey](https://www.qrcode-monkey.com/)
-- Cafe images (Free for commercial use - No attribution required) [Pixabay](https://pixabay.com/)
+- Cafe / doughnut images (Free for commercial use - No attribution required) [Pixabay](https://pixabay.com/)
 
 ### Acknowledgements
 
 - My brother Edwin for his photography skills.
-- Code Institute for properly embracing the future with an online only course.
+- Code Institute.
 - My noise canceling headphones, so I can still work during quarantine.
 
 
