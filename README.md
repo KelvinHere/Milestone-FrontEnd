@@ -73,6 +73,10 @@ and links to all other pages on the site.
 - Menu items are clickable and give modal with more in depth information about item.
 - Events page enter draw form is available as a modal through a button on mobile or displayed immediately on larger screens.
 - Footer images of food items are also a link to the menu page.
+- simple javascript button to show hide image
+- fontawesome icons
+- bootstrap
+
 
 ### Features Left to Implement
 - None
