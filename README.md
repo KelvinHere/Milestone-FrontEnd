@@ -99,11 +99,11 @@ and links to all other pages on the site.
 ## Testing
 
 ### HTML Validator
-- Each website page has been checked with the HTML validator at validator.w3.org, errors and warnings have been corrected (NOT FINALISED) 
+- Each website page has been checked with the HTML validator at validator.w3.org, errors and warnings have been corrected.
 
 ### Visual inspection
 * Through chrome browser inspect, layout and features tested on :-
-    * Desktop - Variable resolutions from 2560 x 1440 to 1920 x 720 - Chrome/Firefox/Edge/Opera
+    * Desktop - Variable resolutions from 2560 x 1440 to 800 x 600 - Chrome/Firefox/Edge/Opera
     * Moto G4
     * Galaxy S5
     * Pixel 2/2XL
