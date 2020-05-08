@@ -4,7 +4,7 @@ This milestone project demonstrates my ability to create a "mobile first" websit
 
 Website Link : https://kelvinhere.github.io/Milestone-FrontEnd/
 
-This restaurant is aimed at workers looking for quick healthy food and will be designed to give this impresson via color palet and backgound images through the site.
+This restaurant is aimed at workers looking for quick healthy food and will be designed to give this impression via color palet and background images through the site.
 
 This restaurant websites aim is to attract customers and boost sales.  The main page quickly gives users an idea of the style of food available and ethos of the company.  This website also includes an **online 
 menu** with prices and expandable nutrition/allergen information and **QR code** for quick automatic ordering.  A **location page** with map link and opening hours. A customer **Event** page will encourage repeat custom via weekly events, discounts and free workplace lunch deliveries won by draw.
@@ -47,9 +47,9 @@ looking interface to access these choices with as few clicks as possible, from t
 and links to all other pages on the site.
 
 ##### Food Menu Page
-* Shows off the restaurants dishess.
+* Shows off the restaurants dishes.
 * Menu items are clickable, opening up a larger image in a bootstrap modal, this gives more information on nutrition and allergens.  
-* From the menu item model there will be a QR order button that will expose a QR code to self service order in the restraunt.
+* From the menu item model there will be a QR order button that will expose a QR code to self service order in the restaurant.
 
 ##### Events page
 * A page to show current events and enter a weekly delivery draw.  This page's goal is to give the customers a reason to regularly access the website.
@@ -69,9 +69,9 @@ and links to all other pages on the site.
 - Width of desktop elements are capped to avoid ugly layout and stretched items at very high resolutions.
 - Hidden QR codes that only take up screen real estate if needed by the user.
 - Footer on main page will hide before it clashes with navigation buttons.
-- Background images available in different resolutions depending screen size starting with lower resolutions for mobile, to reduce used badwidth and speed up site load times over mobile.
+- Background images available in different resolutions depending screen size starting with lower resolutions for mobile, to reduce used bandwidth and speed up site load times over mobile.
 - Menu items are clickable and give modal with more in depth information about item.
-- Events page enter draw form is available as a modal through a button on mobile or displayed immediatley on larger screens.
+- Events page enter draw form is available as a modal through a button on mobile or displayed immediately on larger screens.
 - Footer images of food items are also a link to the menu page.
 
 ### Features Left to Implement
@@ -98,8 +98,8 @@ and links to all other pages on the site.
 - Each website page has been checked with the HTML validator at validator.w3.org, errors and warnings have been corrected (NOT FINALISED) 
 
 ### Visual inspection
-* Through chrome broswer inspect, layout and features tested on :-
-    * Desktop - Variable resolutions from 2560 x 1440 to 1920 x 720
+* Through chrome browser inspect, layout and features tested on :-
+    * Desktop - Variable resolutions from 2560 x 1440 to 1920 x 720 - Chrome/Firefox/Edge/Opera
     * Moto G4
     * Galaxy S5
     * Pixel 2/2XL
