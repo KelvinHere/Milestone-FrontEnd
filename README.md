@@ -63,20 +63,22 @@ and links to all other pages on the site.
  
 ### Existing Features
 - Background image positions changes depending screen width.
-- Responsive design will rearrange buttons / columns / tables to appropriate sizes depending on resolution of screen.
+- Background images available in different resolutions depending screen size starting with lower resolutions for mobile, to reduce used bandwidth and speed up site load times over mobile.
+- Responsive design will rearrange buttons / images / columns / tables to appropriate sizes depending on resolution of screen.
 - Navigation will collapse to menu icon on mobile to avoid screen being too busy, in this case social media icons will be displayed as footer.
 - Social media icons move to top navigation bar at higher resolutions.
 - Width of desktop elements are capped to avoid ugly layout and stretched items at very high resolutions.
 - Hidden QR codes that only take up screen real estate if needed by the user.
 - Footer on main page will hide before it clashes with navigation buttons.
-- Background images available in different resolutions depending screen size starting with lower resolutions for mobile, to reduce used bandwidth and speed up site load times over mobile.
 - Menu items are clickable and give modal with more in depth information about item.
+- Menu items have picture / ingredients / allergy information / price and a button to show a QR order code.
 - Events page enter draw form is available as a modal through a button on mobile or displayed immediately on larger screens.
+- Location show button to opening hours on smaller screens and hides when unneeded on larger screens.
 - Footer images of food items are also a link to the menu page.
-- simple javascript button to show hide image
-- fontawesome icons
-- bootstrap
-
+- simple javascript button to show hide image.
+- fontawesome icons.
+- Google fonts.
+- bootstrap.
 
 ### Features Left to Implement
 - None
@@ -104,12 +106,30 @@ and links to all other pages on the site.
 - [Inkscape](https://inkscape.org/) - Vector graphics software
     - Used to create logo for website
 
+## Deployment
+
+### Deployment Location
+
+This webpage has been deployed to github pages, link below.
+Website Link : https://kelvinhere.github.io/Milestone-FrontEnd/
+
+Steps 
+1. From repo main page click settings
+2. Under "GitHub Pages" > "Source" click the "None" button
+3. Select the master branch to publish the master branch on GitHub pages
+4. Once published the link will be shown
+
+### How to clone this page
+
+Go to reop main page : https://github.com/KelvinHere/Milestone-FrontEnd
+Follow the steps at this webpage : [Cloning a repository](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+
 ## Testing
 
 ### HTML Validator
 - Each website page has been checked with the HTML validator at validator.w3.org, errors and warnings have been corrected.
 
-### Visual inspection
+### Visual inspection and manual testing
 * Through Chrome browser inspect function, responsive layout, features and links tested on :-
     * Desktop - Variable resolutions from 2560 x 1440 to 800 x 600 - Also tested on Firefox/Edge/Opera
     * Moto G4
@@ -120,55 +140,47 @@ and links to all other pages on the site.
     * iPhone X
     * iPad / iPad Pro
 
-- The above tests made sure that
+* All pages have had the below items tested :-
+    * The navbar is collapsed on small screen and uncolapses at lager resolutions
+    * Uncolapsed navbar has social media links
+    * Active page is marked on navbar
+    * The top right branding links to index.html
+    * The opacity layers allow the user to see the background without it obscuring text on each page
+    * Each button and link on each page has been tested to link to its correct destination
+    * Background image is chosen  and positioned depending on screen size
+    * If table exists at bottom of page it scales with width and changes from 1 column to 3 columns on wider screens        
+    * Footer of social media buttons if navbar is collapsed
+    * The reactive elements of the website look good when adjusting the width/height of the website to any sensible resolution
 
-    * All pages have
-        * The navbar is collapsed on small screen and uncolapses at lager resolutions
-        * Uncolapsed navbar has social media links
-        * Active page is marked on navbar
-        * The top right branding links to index.html
-        * Background image is chosen  and positioned depending on screen size
-        * If table exists at bottom of page it scales with width and changes from 1 column to 3 columns on wider screens        
-        * Footer of social media buttons if navbar is collapsed
+* index.html -
+    * The buttons stack horizontally on mobile and spread out vertically on wider screens
+    * The logo more appropriatley offsets its self on wider screens to line up with new button layout
+    * The hero image takes up most of the screen vertically but leaves enough to show user can scroll down to next section at any screen height resolution
+    * The catchphrase hides when screen becomes to small to avoid clutter
+    * Footer social media links hide when vertical height is too small and collides with buttons
 
-    * index.html -
-        * The buttons stack horizontally on mobile and spread out vertically on wider screens
-        * The logo more appropriatley offsets its self on wider screens to line up with new button layout
-        * The hero image takes up most of the screen vertically but leaves enough to show user can scroll down to next section at any screen height resolution
-        * The catchphrase hides when screen becomes to small to avoid clutter
-        * Footer social media links hide when vertical height is too small and collides with buttons
+* menu.html -
+    * Menu items image and description stack horizontally on mobile and vertically on larger screens
+    * On higher resolutions the maximum width of the page content is capped for readability
+    * Each menu item opens menu modal when clicked
+    * Each menu modal has button to toggle QR code visibility and close midal button
 
-    * menu.html -
-        * Menu items image and description stack horizontally on mobile and vertically on larger screens
-        * On higher resolutions the maximum width of the page content is capped for readability
-        * Each menu item opens menu modal when clicked
-        * Each menu modal has button to toggle QR code visibility and close midal button
+* events.html -
+    * Mobile shows events and the ability to enter draw through a button that opens a modal
+    * On higher resolutions the maximum width of the page content is capped for readability
+    * Wider screens show two columns one for events and one with an enter draw form (the mobile enter draw information is hidden)  
+    * Enter draw modal has close and submit button
+    * The Enter draw form on the page and modal only accept valid inputs.
+        * Name accepts any text
+        * Email gives error when incorrect email format is entered
+        * Entry code gives error unless it is a 5 digit code
 
-    * events.html -
-        * Mobile shows events and the ability to enter draw through a button that opens a modal
-        * On higher resolutions the maximum width of the page content is capped for readability
-        * Wider screens show two columns one for events and one with an enter draw form (the mobile enter draw information is hidden)  
-        * Enter draw modal has close and submit button
-
-    * location.html -
-        * Location is two vertical stacked items on mobile that turns to two horizontal columns on wider screens
-        * On higher resolutions the maximum width of the page content is capped for readability
-        * On smaller screens a button is visible that takes you to the opening hours section of the page
-        * Location has embeded google maps that centers on restaraunt (used code institue address) and is size reactive
-        * Clickable telephone link
-
-
-
-
-
-        
-
-
-
-### Manual Testing
-- Each button and link on each page has been tested to link to its correct destination
-- The top right "FreshGreen" navigation image acts link back home on each page
-- The opacity layers allow the user to see the background without it obscuring text on each page
+* location.html -
+    * Location is two vertical stacked items on mobile that turns to two horizontal columns on wider screens
+    * On higher resolutions the maximum width of the page content is capped for readability
+    * On smaller screens a button is visible that takes you to the opening hours section of the page
+    * Location has embeded google maps that centers on restaraunt (used code institue address) and is size reactive
+    * Clickable telephone link
 
 ### User stories tested
 - As Bob a previous customer, I want to choose something to eat because I'm hungry.

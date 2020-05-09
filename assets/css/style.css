@@ -749,7 +749,7 @@ footer .social-media-links {
     }
 
     .enter-draw-column {
-       display: none;
+       display: block;
     }
 
     .enter-draw-wrapper {
