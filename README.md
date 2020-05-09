@@ -19,7 +19,7 @@ looking interface to access these choices with as few clicks as possible, from t
 * As Bob a previous customer, I want to choose something to eat because I'm hungry.
 * As Charlie, a friend recommended the restaurant, I want to find out where it is so I can visit.
 * As Sue, an allergy sufferer, I want to view the allergens in the food so I don’t have a bad reaction.
-* As Bill, a serial customer, I want to know this week's event, so I can try to win the office delivery draw.
+* As Bill, a serial customer, I want to know this week's event, and I want to try to win the office delivery draw.
 * As Pat, a health conscious person, I want to know the ingredients of my lunch, so I can stay within my nutrition boundaries.
 * As Frank, a shift worker, I want to know the opening hours, so I am not wasting a trip to the restaurant. 
 * As Paulie, I want to order without talking to anyone, I want to use the QR code self service option.
@@ -93,8 +93,16 @@ and links to all other pages on the site.
 	- This project uses **Bootstrap** for rapid development
 - [Fontawesome](https://fontawesome.com) - Font library
 	- This project uses **Fontawesome** for quick icon styling
+- [Google Fonts](https://fonts.google.com/) - Font library
+    - Used to style websites fonts
 - [Draw.io](https://www.draw.io/) - Wireframing tool
 	- This project uses **Draw.io** for rapid wireframe prototyping
+- [QR Code Monkey](https://www.qrcode-monkey.com/) - Free online QR code generator
+    - Used to create QR codes for menu items
+- [Photoshop CS1](https://www.adobe.com/) - Image editing software
+    - Used to edit images on the website
+- [Inkscape](https://inkscape.org/) - Vector graphics software
+    - Used to create logo for website
 
 ## Testing
 
@@ -102,8 +110,8 @@ and links to all other pages on the site.
 - Each website page has been checked with the HTML validator at validator.w3.org, errors and warnings have been corrected.
 
 ### Visual inspection
-* Through chrome browser inspect, layout and features tested on :-
-    * Desktop - Variable resolutions from 2560 x 1440 to 800 x 600 - Chrome/Firefox/Edge/Opera
+* Through Chrome browser inspect function, responsive layout, features and links tested on :-
+    * Desktop - Variable resolutions from 2560 x 1440 to 800 x 600 - Also tested on Firefox/Edge/Opera
     * Moto G4
     * Galaxy S5
     * Pixel 2/2XL
@@ -111,6 +119,69 @@ and links to all other pages on the site.
     * iPhone 6/7/8 plus
     * iPhone X
     * iPad / iPad Pro
+
+- The above tests made sure that
+
+    * All pages have
+        * The navbar is collapsed on small screen and uncolapses at lager resolutions
+        * Uncolapsed navbar has social media links
+        * Active page is marked on navbar
+        * The top right branding links to index.html
+        * Background image is chosen  and positioned depending on screen size
+        * If table exists at bottom of page it scales with width and changes from 1 column to 3 columns on wider screens        
+        * Footer of social media buttons if navbar is collapsed
+
+    * index.html -
+        * The buttons stack horizontally on mobile and spread out vertically on wider screens
+        * The logo more appropriatley offsets its self on wider screens to line up with new button layout
+        * The hero image takes up most of the screen vertically but leaves enough to show user can scroll down to next section at any screen height resolution
+        * The catchphrase hides when screen becomes to small to avoid clutter
+        * Footer social media links hide when vertical height is too small and collides with buttons
+
+    * menu.html -
+        * Menu items image and description stack horizontally on mobile and vertically on larger screens
+        * Each menu item opens menu modal when clicked
+        * Each menu modal has button to toggle QR code visibility and close midal button
+
+    * events.html -
+        * Mobile shows events and the ability to enter draw through a button that opens a modal
+        * On higher resolutions the maximum width of the page content is capped for readability
+        * Wider screens show two columns one for events and one with an enter draw form (the mobile enter draw information is hidden)  
+        * Enter draw modal has close and submit button
+
+    * location.html -
+        * Location is two vertical stacked items on mobile that turns to two horizontal columns on wider screens
+        * On higher resolutions the maximum width of the page content is capped for readability
+        * Location has embeded google maps that centers on restaraunt (used code institue address)
+        
+
+
+
+
+        
+
+
+
+### Manual Testing
+- Each button and link on each page has been tested to link to its correct destination
+- The top right "FreshGreen" navigation image acts link back home on each page
+- The opacity layers allow the user to see the background without it obscuring text on each page
+
+### User stories tested
+- As Bob a previous customer, I want to choose something to eat because I'm hungry.
+    * Menu accessible by one click on either mobile or desktop.
+- As Charlie, a friend recommended the restaurant, I want to find out where it is so I can visit.
+    * Location accessable by one click, google maps embedded link direct to location, underneath are GPS co-ordinates and written address.
+- As Sue, an allergy sufferer, I want to view the allergens in the food so I don’t have a bad reaction.
+    * Each menu item when clicked shows 'allergen symbols' used by [Erudus](https://erudus.com/)', also under ingredients the allergens are written so customer can double check if unsure of symbol.
+- As Bill, a serial customer, I want to know this week's event, and I want to try to win the office delivery draw.
+    * One click to events page first item is this weeks event, promonent enter draw button on mobile or entry form on desktop.
+- As Pat, a health conscious person, I want to know the ingredients of my lunch, so I can stay within my nutrition boundaries.
+    * Each menu item when clicked shows exact ingredients.
+- As Frank, a shift worker, I want to know the opening hours, so I am not wasting a trip to the restaurant. 
+    * As standard opening hours are included on location page and are accessable in one click.
+- As Paulie, I want to order without talking to anyone, I want to use the QR code self service option.
+    * QR code available via promonent button once menu item is selected.
 
 ## Credits
 
@@ -125,7 +196,6 @@ Created by KelvinHere
 - Food allergen icons - [Erudus Food Allergy Icons](https://erudus.com/erudus-food-allergy-icons/)
 - Crossed grain symbol - [Coeliac Society of Ireland](https://www.coeliac.ie/crossed-grain-symbol/)
 - Vegetarian symbol - [European Vegetarian Union](https://www.euroveg.eu/)
-- Free online QR code generator - [QR Code Monkey](https://www.qrcode-monkey.com/)
 - Cafe / doughnut images (Free for commercial use - No attribution required) [Pixabay](https://pixabay.com/)
 
 ### Acknowledgements

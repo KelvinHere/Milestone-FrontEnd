@@ -444,11 +444,10 @@ footer .social-media-links {
 }
 
 .address > h3 {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .address > p {
-    margin-bottom: 50px;
     margin-bottom: 0px;
 }
 
@@ -487,6 +486,24 @@ footer .social-media-links {
 
 .gps-wrapper {
     text-align: center;
+}
+
+.opening-hours-button-wrapper {
+    margin: 0;
+    text-align: center;
+    display: block;
+}
+
+.opening-hours-button {
+    font-size: 18;
+    background-color: orange;
+    border-color: orange;
+    color: black;
+}
+
+.opening-hours-button:hover {
+    background-color: #FF7C00;
+    border-color: white;
 }
 
 .hours-column td {
@@ -597,6 +614,16 @@ footer .social-media-links {
     margin: auto;
 }
 
+.telephone-wrapper {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.telephone-wrapper a {
+    font-family: 'Kavivanar', sans-serif;
+    font-weight: bold;
+}
+
 .event-cell-wrapper-modal {
     border: none;
     margin: auto;
@@ -647,6 +674,10 @@ footer .social-media-links {
     
     .catchphrase p {
         display: block;
+    }
+
+    .opening-hours-button-wrapper {
+        display: none;
     }
 }
 
@@ -712,13 +743,13 @@ footer .social-media-links {
     .location-columns .table-wrapper {
         margin-top: 20px;
     }
-    
+
     .events-article-background {
         background-image: url("../images/events/events-bg-lg.jpg");
     }
 
     .enter-draw-column {
-       display: inline-block;
+       display: none;
     }
 
     .enter-draw-wrapper {
