@@ -140,6 +140,7 @@ and links to all other pages on the site.
 
     * menu.html -
         * Menu items image and description stack horizontally on mobile and vertically on larger screens
+        * On higher resolutions the maximum width of the page content is capped for readability
         * Each menu item opens menu modal when clicked
         * Each menu modal has button to toggle QR code visibility and close midal button
 
@@ -152,8 +153,10 @@ and links to all other pages on the site.
     * location.html -
         * Location is two vertical stacked items on mobile that turns to two horizontal columns on wider screens
         * On higher resolutions the maximum width of the page content is capped for readability
-        * Location has embeded google maps that centers on restaraunt (used code institue address)
-        
+        * On smaller screens a button is visible that takes you to the opening hours section of the page
+        * Location has embeded google maps that centers on restaraunt (used code institue address) and is size reactive
+        * Clickable telephone link
+
 
 
 
