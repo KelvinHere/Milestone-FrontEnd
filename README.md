@@ -1,30 +1,45 @@
-![Logo](https://github.com/KelvinHere/Milestone-FrontEnd/blob/master/design-assets/logo.png?raw=true "FreshGreen logo")
+# <p style="text-align: center;">**Fresh Green - Restaraunt**</p>
+[FreshGreen Website link](https://kelvinhere.github.io/Milestone-FrontEnd/ 'FreshGreen website GitHub pages link')
 
-# Front End Milestone Project - *Restaurant Website*
+A stylish reactive mobile first website for FreshGreen restaraunt to attract cusomers and increace repeat custom.  FreshGreen cateres to workers for eat in and take-away
+healthy food. FreswhGreen is aimed at workers looking for quick healthy food and will be designed to give this impression via color palet and background images througout the site.
 
-This milestone project demonstrates my ability to create a "mobile first" website using **HTML5, CCS and CDNs**.
+The FreshGreen website will allow a customer to quickly find all critical information in as few clicks as possible while keeping a slick uncluttered look.  While browsing the 
+customer will be funneled to one of the restaraunts USPs, a **QR quick order code**, allowing fast purchase from one of the restaraunts take-away kisoks.
 
-Website Link : https://kelvinhere.github.io/Milestone-FrontEnd/
+Business goals
+* Promote brand awareness
+* Drive custom and repeat custom to the restaraunt
+* Promote use of self service to reduce need for front of house staff during peak periods
+* Increase sales from customers with allergens by including allery information simply
 
-This restaurant is aimed at workers looking for quick healthy food and will be designed to give this impression via color palet and background images through the site.
-
-This restaurant websites aim is to attract customers and boost sales.  The main page quickly gives users an idea of the style of food available and ethos of the company.  This website also includes an **online 
-menu** with prices and expandable nutrition/allergen information and **QR code** for quick automatic ordering.  A **location page** with map link and opening hours. A customer **Event** page will encourage repeat custom via weekly events, discounts and free workplace lunch deliveries won by draw.
+Customer goals
+* Easy to use UX for accessability to all needed information
+* Easy to read menu items that give customer more information when clicked
+* Quick ordering process
+* Give cusomters who suffer from allergies quick access to menu item allergens
+* Quick access to location and opening hours
+* One click navigation to important information
 
 ## UX
 
-This website is for health conscious workers looking to buy good quality, healthy fast food.  
-Primarily the users will want to view the different menu items quickly to make a dining choice.  The best way to achieve this is a quick modern 
-looking interface to access these choices with as few clicks as possible, from the main page the rest of the menu and location information are accessible by one click.
+Visitors to this site will be chosing something to eat or finding out more information about the restaraunt.  All design is built keeping these core tasks in mind.
+
+This website is customer based, and will be viewed mostly on mobile devices as repeat customers will ideally use the no sign-up ordering function through their device.
+To achieve best restults in this case the UX needs to be simple and allow the user to reach their information through as few clicks as possible.  Because of
+screen size limitations of mobile devices the UI will be mostly vertically stacked, but for our desktop users the website will reorder into a wider column based 
+design.  Both designs allow the user to view its content without showing too much information at any one time.
 
 #### User stories
-* As Bob a previous customer, I want to choose something to eat because I'm hungry.
+* As a previous customer, I want to choose something to eat because I'm hungry.
 * As Charlie, a friend recommended the restaurant, I want to find out where it is so I can visit.
-* As Sue, an allergy sufferer, I want to view the allergens in the food so I don’t have a bad reaction.
-* As Bill, a serial customer, I want to know this week's event, and I want to try to win the office delivery draw.
-* As Pat, a health conscious person, I want to know the ingredients of my lunch, so I can stay within my nutrition boundaries.
-* As Frank, a shift worker, I want to know the opening hours, so I am not wasting a trip to the restaurant. 
-* As Paulie, I want to order without talking to anyone, I want to use the QR code self service option.
+* As an allergy sufferer, I want to view the allergen information so I don’t have a bad reaction.
+* As a serial customer, I want to know this week's event because it adds value to my visit
+* As bob, I want to try to win the office delivery draw because I want to win lunch for my workmates.
+* As a health conscious person, I want to know the ingredients of my lunch, so I can stay within my nutrition boundaries.
+* As Paulie, I want to order without talking to anyone, I want this service option.
+* As a shift worker, I want to know the opening hours, so I am not wasting a trip to a closed restaurant. 
+
 
 #### wireframes
 ##### Mobile wireframes
@@ -47,17 +62,20 @@ looking interface to access these choices with as few clicks as possible, from t
 ### Existing Features
 
 ##### Main page
+The front page of the website is as simple as possibe while giving the user the ability to get to any page in one click, the page only gets "busy" as you scroll down and want to see more images of the restaraunt / food for sale.
 * A hero image to set the tone of the company ethos and expected type of product.  This will have the restaurant name, hero image, and links to all other pages on the site.
 * Footer on the index page will hide before it clashes with navigation buttons (for lower resolution screens).
 * A reactive set of images of the restaraunt and pictures of some food available will be at the bottom of the page, if clicked links to [Menu Page](https://kelvinhere.github.io/Milestone-FrontEnd/menu.html "Menu page for FreshGreen")
 
 ##### Menu Item Page
-* Shows off the restaurants dishes.
+This page is made to allow the customer to quicky scan through menu items and get an idea of what they may want, extra information is on shown if the user clicks an item to avoid information overload.
+* Shows off the restaurants menu items thorough a picture and simple descriptive text
 * Menu items are clickable, opening up a larger image in a bootstrap modal, this gives more information on nutrition and allergens.  
 * From the menu item model there is a QR order button that exposes a QR code to self service order in the restaurant.
 
 
 ##### Events page
+The events page is to encourage repeat custom, having a page updated weekly gives users a reason to revisit the site even if they already know the menu.
 * A page to show current events and enter a weekly delivery draw.  This page's goal is to give the customers a reason to regularly access the website.
 * Events page *enter draw* form is available as a modal accessed through a button on mobile or displayed immediately in a column on larger screens.
 * The draw entry form takes take these inputs from the user, correct formats needed for email and entry code :-
@@ -67,25 +85,42 @@ looking interface to access these choices with as few clicks as possible, from t
 * A reactive set of images of the restaraunt and pictures of some food available will be at the bottom of the page, if clicked links to [Menu Page](https://kelvinhere.github.io/Milestone-FrontEnd/menu.html "Menu page for FreshGreen")
 
 ##### Location page
+The location page simply gives customers the ability to locate / contact and find the opening hours of the restaraunt.
 * A simple page with opening hours, clickable phone number, address and an embedded google maps link and GPS coordinates.
-* Location show button to opening hours on smaller screens and hides when unneeded on larger screens.
+* If viewing the map on smaller screens the opening hours are not usually visible, in this case a promonent button will appear with a direct link to them to avoid the user missing this information.
+* On larger screens the link to opening hours is not needed so will be hidden.
 * A reactive set of images of the restaraunt and pictures of some food available will be at the bottom of the page, if clicked links to [Menu Page](https://kelvinhere.github.io/Milestone-FrontEnd/menu.html "Menu page for FreshGreen")
  
-##### Other features
-- Background image positions changes depending screen width.
-- Background images available in different resolutions depending screen size starting with lower resolutions for mobile, to reduce used bandwidth and speed up site load times over mobile.
-- Responsive design will rearrange buttons / images / columns / tables to appropriate sizes depending on resolution of screen as shown in wirefames.
-- Navigation will collapse to menu icon on mobile to avoid screen being too busy, in this case social media icons will be displayed as footer.
-- Social media icons move to top navigation bar at higher resolutions.
-- Width of some elements are capped to avoid ugly layout and stretched items at very high resolutions.
-- Footer images of food items are also a link to the menu page.
-- simple javascript button to show hide image.
-- fontawesome icons.
-- Google fonts.
-- bootstrap.
+##### Global features
+* Background image positions changes depending screen width.
+* Background images available in different resolutions depending screen size starting with lower resolutions for mobile, to reduce used bandwidth and speed up site load times over mobile.
+* Responsive design will rearrange buttons / images / columns / tables to appropriate sizes depending on resolution of screen as shown in wirefames.
+* Navigation will collapse to menu icon on mobile to avoid screen being too busy, in this case social media icons will be displayed as footer.
+* Social media icons move to top navigation bar at higher resolutions.
+* Width of some elements are capped to avoid ugly layout and stretched items at very high resolutions.
+* Footer images of food items are also a link to the menu page.
+* simple javascript button to show hide image.
+* fontawesome icons.
+* Google fonts.
+* bootstrap.
 
 ### Features Left to Implement
-- None
+* None
+
+### Features removed/changed during development
+* Allergen information placed on to menu item image
+    - Reason : Image looked messy or icons were too small and unreadable so were removed but can still be seen when item is clicked
+* Index page buttons stack below hero image on small screens
+    - Reason : Buttons could be off page, placing them on hero image created a better looking UI
+* Menu page items have text next to image on mobile
+    - Reason : Text was too small, text moved below menu item
+* Menu page items double column on larger screens
+    - Reason : Information overload, replaced with single column of text desctiption next to image
+
+### Future features
+* GDPR compliance
+* Language select
+* Add drinks option to QR checkout code
 
 ## Technologies Used
 
@@ -109,25 +144,6 @@ looking interface to access these choices with as few clicks as possible, from t
     - Used to edit images on the website
 - [Inkscape](https://inkscape.org/) - Vector graphics software
     - Used to create logo for website
-
-## Deployment
-
-### Deployment Location
-Website created and developed in GitPod, version controled with Git/GitHub
-
-This webpage has been deployed to github pages, link below.
-Website Link : https://kelvinhere.github.io/Milestone-FrontEnd/
-
-Steps to publish
-1. From the repo main page click *settings*
-2. Under "GitHub Pages" > "Source" click the "None" button
-3. From dropdown menu select the master branch to publish the master branch on GitHub pages
-4. Once published the link to the live page will be shown
-
-### How to clone this page
-
-Go to reop main page : https://github.com/KelvinHere/Milestone-FrontEnd
-Follow the steps at this webpage : [Cloning a repository](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 
 ## Testing
 
@@ -187,32 +203,60 @@ Follow the steps at this webpage : [Cloning a repository](https://help.github.co
     * Location has embeded google maps that centers on restaraunt (used code institue address) and is size reactive
     * Clickable telephone link
 
+
 ### User stories tested
-- As Bob a previous customer, I want to choose something to eat because I'm hungry.
+- As a previous customer, I want to choose something to eat because I'm hungry.
     * Menu accessible by one click on either mobile or desktop.
 - As Charlie, a friend recommended the restaurant, I want to find out where it is so I can visit.
     * Location accessable by one click, google maps embedded link direct to location, underneath are GPS co-ordinates and written address.
-- As Sue, an allergy sufferer, I want to view the allergens in the food so I don’t have a bad reaction.
+- As an allergy sufferer, I want to view the allergen information so I don’t have a bad reaction.
     * Each menu item when clicked shows 'allergen symbols' used by [Erudus](https://erudus.com/)', also under ingredients the allergens are written so customer can double check if unsure of symbol.
-- As Bill, a serial customer, I want to know this week's event, and I want to try to win the office delivery draw.
+- As a serial customer, I want to know this week's event because it adds value to my visit
     * One click to events page first item is this weeks event, promonent enter draw button on mobile or entry form on desktop.
-- As Pat, a health conscious person, I want to know the ingredients of my lunch, so I can stay within my nutrition boundaries.
+- As bob, I want to try to win the office delivery draw because I want to win lunch for my workmates.
+    * The events page allows bob to enter the draw with a valid reciept code
+- As a health conscious person, I want to know the ingredients of my lunch, so I can stay within my nutrition boundaries.
     * Each menu item when clicked shows exact ingredients.
-- As Frank, a shift worker, I want to know the opening hours, so I am not wasting a trip to the restaurant. 
+- As Paulie, I want to order without talking to anyone, I want this service option.
+    * QR code available via promonent button once menu item is selected.    
+- As a shift worker, I want to know the opening hours, so I am not wasting a trip to a closed restaurant. 
     * As standard opening hours are included on location page and are accessable in one click.
-- As Paulie, I want to order without talking to anyone, I want to use the QR code self service option.
-    * QR code available via promonent button once menu item is selected.
+
+## Deployment
+
+### Deployment Location
+Website created and developed in GitPod, version controled with Git/GitHub
+
+This webpage has been deployed to github pages - [FreshGreen Link](https://kelvinhere.github.io/Milestone-FrontEnd/ 'FreshGreen link hosted on GitHub pages')
+
+Steps to publish to GitHub Pages
+1. From [this repos main page](https://github.com/KelvinHere/Milestone-FrontEnd 'Reop main page link') click **settings** (cog icon)
+2. Under the 'GitHub Pages' > 'Source' section click the **None** button
+3. From dropdown menu select the **master branch** to publish the master branch on GitHub pages
+4. Once published the link to the live page will be shown in the **GitHub Pages** section
+
+### Deploy locally
+
+To colone FreshGreen website from GitHub :-
+1. From [this repos main page](https://github.com/KelvinHere/Milestone-FrontEnd 'Reop main page link') click **Clone or Download**
+2. From **Clone with HTTPs** section copy the link given
+3. In your local IDE open Git Bash
+4. Change current working directory to your prefered location
+5. Type **Git clone** and paste in your GitHub URL and press enter
+
+If the GitHub layout is changed follow the steps given on the official webpage : [Cloning a repository](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 
 ## Credits
 
-Created by KelvinHere
+- Created by KelvinHere
 
 ### Content
-- TODO ################ 
+
+- Text on this website created by KelvinHere
 
 ### Media
 
-- Edwin - digital photographer
+- Digital photography of food and backgrounds - Edwin, digital photographer
 - Food allergen icons - [Erudus Food Allergy Icons](https://erudus.com/erudus-food-allergy-icons/)
 - Crossed grain symbol - [Coeliac Society of Ireland](https://www.coeliac.ie/crossed-grain-symbol/)
 - Vegetarian symbol - [European Vegetarian Union](https://www.euroveg.eu/)
@@ -222,6 +266,7 @@ Created by KelvinHere
 
 - My brother Edwin for his photography skills.
 - Code Institute.
+- My mentor Spencer.
 - My noise canceling headphones, so I can still work during quarantine.
 
 
