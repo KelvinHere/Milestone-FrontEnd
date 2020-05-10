@@ -667,13 +667,17 @@ footer .social-media-links {
     }
 }
 
-@media(min-width: 769px) {
+@media(min-width: 775px) {
     .logo-large-image { /*offset for logo to line up properly with button position change*/
         padding-left: 125px;
     }
     
     .catchphrase p {
         display: block;
+    }
+
+    .index-button-col {
+        flex: 33.333333% !important;
     }
 
     .opening-hours-button-wrapper {

@@ -116,8 +116,8 @@ Website Link : https://kelvinhere.github.io/Milestone-FrontEnd/
 Steps 
 1. From repo main page click settings
 2. Under "GitHub Pages" > "Source" click the "None" button
-3. Select the master branch to publish the master branch on GitHub pages
-4. Once published the link will be shown
+3. From dropdown menu select the master branch to publish the master branch on GitHub pages
+4. Once published the link to the live page will be shown
 
 ### How to clone this page
 
