@@ -273,7 +273,7 @@ footer .social-media-links {
 }
 
 .food-info > .food-description {
-    color: #9bd496;
+    color: #EDF5E1;
 }
 
 .food-info > .food-price {
@@ -449,6 +449,7 @@ footer .social-media-links {
 
 .address > p {
     margin-bottom: 0px;
+    color: #EDF5E1;
 }
 
 .location-columns > .location-cell-border > h2 {
@@ -488,6 +489,10 @@ footer .social-media-links {
     text-align: center;
 }
 
+.gps-wrapper p {
+    color: #EDF5E1;
+}
+
 .opening-hours-button-wrapper {
     margin: 0;
     text-align: center;
@@ -507,7 +512,7 @@ footer .social-media-links {
 }
 
 .hours-column td {
-    color: #9bd496;
+    color: #EDF5E1;
 }
 
 .hours-column table tr {
@@ -578,6 +583,11 @@ footer .social-media-links {
     text-align: center;
     padding-top: 20px;
     margin: 0 20px 60px 20px;
+    color: #EDF5E1;
+}
+
+.event-cell-wrapper label, .modal-content label {
+    color: #EDF5E1;
 }
 
 .event-image-wrapper {
@@ -616,7 +626,9 @@ footer .social-media-links {
 
 .telephone-wrapper {
     margin-top: 15px;
+    margin-bottom: 15px;
     text-align: center;
+    color: #EDF5E1;
 }
 
 .telephone-wrapper a {
