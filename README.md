@@ -1,3 +1,5 @@
+![Logo](https://github.com/KelvinHere/Milestone-FrontEnd/blob/master/design-assets/logo.png?raw=true "FreshGreen logo")
+
 # Front End Milestone Project - *Restaurant Website*
 
 This milestone project demonstrates my ability to create a "mobile first" website using **HTML5, CCS and CDNs**.
@@ -42,38 +44,40 @@ looking interface to access these choices with as few clicks as possible, from t
 
 ## Features
 
-##### Main page
-* A hero image to display the kind of foods available and set the tone of the company ethos.  This will have the restaurant name, hero image, 
-and links to all other pages on the site.
+### Existing Features
 
-##### Food Menu Page
+##### Main page
+* A hero image to set the tone of the company ethos and expected type of product.  This will have the restaurant name, hero image, and links to all other pages on the site.
+* Footer on the index page will hide before it clashes with navigation buttons (for lower resolution screens).
+* A reactive set of images of the restaraunt and pictures of some food available will be at the bottom of the page, if clicked links to [Menu Page](https://kelvinhere.github.io/Milestone-FrontEnd/menu.html "Menu page for FreshGreen")
+
+##### Menu Item Page
 * Shows off the restaurants dishes.
 * Menu items are clickable, opening up a larger image in a bootstrap modal, this gives more information on nutrition and allergens.  
-* From the menu item model there will be a QR order button that will expose a QR code to self service order in the restaurant.
+* From the menu item model there is a QR order button that exposes a QR code to self service order in the restaurant.
+
 
 ##### Events page
 * A page to show current events and enter a weekly delivery draw.  This page's goal is to give the customers a reason to regularly access the website.
-* This page will have an entry form for the draw that will take these inputs from the user :-
+* Events page *enter draw* form is available as a modal accessed through a button on mobile or displayed immediately in a column on larger screens.
+* The draw entry form takes take these inputs from the user, correct formats needed for email and entry code :-
     * Name
     * Email
     * Entry Code (5 digit code on receipt)
+* A reactive set of images of the restaraunt and pictures of some food available will be at the bottom of the page, if clicked links to [Menu Page](https://kelvinhere.github.io/Milestone-FrontEnd/menu.html "Menu page for FreshGreen")
 
 ##### Location page
-* A simple page with opening hours, address and an embedded google maps link and GPS coordinates.
+* A simple page with opening hours, clickable phone number, address and an embedded google maps link and GPS coordinates.
+* Location show button to opening hours on smaller screens and hides when unneeded on larger screens.
+* A reactive set of images of the restaraunt and pictures of some food available will be at the bottom of the page, if clicked links to [Menu Page](https://kelvinhere.github.io/Milestone-FrontEnd/menu.html "Menu page for FreshGreen")
  
-### Existing Features
+##### Other features
 - Background image positions changes depending screen width.
 - Background images available in different resolutions depending screen size starting with lower resolutions for mobile, to reduce used bandwidth and speed up site load times over mobile.
-- Responsive design will rearrange buttons / images / columns / tables to appropriate sizes depending on resolution of screen.
+- Responsive design will rearrange buttons / images / columns / tables to appropriate sizes depending on resolution of screen as shown in wirefames.
 - Navigation will collapse to menu icon on mobile to avoid screen being too busy, in this case social media icons will be displayed as footer.
 - Social media icons move to top navigation bar at higher resolutions.
-- Width of desktop elements are capped to avoid ugly layout and stretched items at very high resolutions.
-- Hidden QR codes that only take up screen real estate if needed by the user.
-- Footer on main page will hide before it clashes with navigation buttons.
-- Menu items are clickable and give modal with more in depth information about item.
-- Menu items have picture / ingredients / allergy information / price and a button to show a QR order code.
-- Events page enter draw form is available as a modal through a button on mobile or displayed immediately on larger screens.
-- Location show button to opening hours on smaller screens and hides when unneeded on larger screens.
+- Width of some elements are capped to avoid ugly layout and stretched items at very high resolutions.
 - Footer images of food items are also a link to the menu page.
 - simple javascript button to show hide image.
 - fontawesome icons.
@@ -109,12 +113,13 @@ and links to all other pages on the site.
 ## Deployment
 
 ### Deployment Location
+Website created and developed in GitPod, version controled with Git/GitHub
 
 This webpage has been deployed to github pages, link below.
 Website Link : https://kelvinhere.github.io/Milestone-FrontEnd/
 
-Steps 
-1. From repo main page click settings
+Steps to publish
+1. From the repo main page click *settings*
 2. Under "GitHub Pages" > "Source" click the "None" button
 3. From dropdown menu select the master branch to publish the master branch on GitHub pages
 4. Once published the link to the live page will be shown
