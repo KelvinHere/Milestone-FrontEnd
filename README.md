@@ -259,9 +259,10 @@ Steps to publish to GitHub Pages
 ### Deploy locally
  
 To clone FreshGreen website from GitHub :-
-1. In your IDE, navigate locally to the directory you want the repository to be stored.
-2. From your command terminal type `git clone https://github.com/KelvinHere/Milestone-FrontEnd.git`
- 
+1. In your IDE terminal, navigate locally to the directory you want the repository to be stored.
+2. Run the command `git clone https://github.com/KelvinHere/Milestone-FrontEnd.git`
+3. Project will now be cloned to your locally selected directory.
+
 ## Credits
  
 - Created by KelvinHere
