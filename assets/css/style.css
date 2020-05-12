@@ -281,7 +281,7 @@ footer .social-media-links {
     text-align: right;
 }
 
-.menu-wrapper button { /*cover whole of menu item*/
+.menu-wrapper button {
     height: 96%;
     width: 97%;
     display: block;
