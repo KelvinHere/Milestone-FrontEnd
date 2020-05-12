@@ -293,7 +293,6 @@ footer .social-media-links {
 
 /*------------------------------------------------------------ Menu modals */
 .modal-bg-color {
-    background-color: none;
     border-color: #9bd496;
     border-width: 2px;
 }
@@ -500,7 +499,7 @@ footer .social-media-links {
 }
 
 .opening-hours-button {
-    font-size: 18;
+    font-size: 20px;
     background-color: orange;
     border-color: orange;
     color: black;
