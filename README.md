@@ -127,7 +127,7 @@ The location page simply gives customers the ability to locate / contact and fin
     - **Gitpod** was used for its one stop contained development workflow via browser
 - [Git](https://git-scm.com/) - Version-control system
     - **Git** Used to version control the project
-- [Github](https://www.gitpod.com) - Code hosting platform
+- [Github](https://www.github.com) - Code hosting platform
     - **Github** was used for its robust repository system and ability to view website through **GitHub Pages**
 - [Bootstrap](https://getbootstrap.com) - Library
     - This project uses **Bootstrap** for rapid development
