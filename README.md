@@ -255,13 +255,14 @@ The location page simply gives customers the ability to locate / contact and fin
     * The footer social media links hide when vertical height is too small and would collide navigation with buttons
  
 * menu.html -
-    * The food items **image** and **description** stack horizontally on mobile and vertically on larger screens
+    * The food items **image** and **description** stack vertically on mobile and horizontally on larger screens
     * At higher resolutions the maximum width of the page content is capped for readability
-    * Each menu item opens menu modal when clicked
+    * Each menu item opens the correct menu modal when clicked
     * Each menu modal has button to toggle QR code visibility and close modal button
+    * Each QR code contains the correct information for the kiosk
  
 * events.html -
-    * Mobile screens shows current **event** in full and the ability to enter the draw through a prominent button that opens a modal
+    * Mobile screens show current **event** in full and the ability to enter the draw through a prominent button that opens a modal
     * Higher resolution screens show two columns one for events and the other a form to enter the draw (the mobile screen enter draw button and associated text is hidden)  
     * On higher resolution screens the maximum width of the page content is capped for readability
     * Enter draw modal has close and submit button
@@ -275,7 +276,7 @@ The location page simply gives customers the ability to locate / contact and fin
     * At higher resolutions the maximum width of the page content is capped for readability
     * On smaller screens a button is visible that takes you to the opening hours section of the page
     * Location has embedded google maps that centers on restaurant (used Code Institute address) and is size reactive
-    * Clickable telephone link
+    * Clickable telephone link opens dialler
   
 ### User stories tested
 - As a previous customer, I want to choose something to eat because I'm hungry.
