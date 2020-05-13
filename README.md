@@ -246,6 +246,7 @@ The location page simply gives customers the ability to locate / contact and fin
     * If a table exists at bottom of page it scales with width and changes from 1 column to 3 columns on wider screens        
     * Social media buttons appear as a footer if the navbar is collapsed
     * The reactive elements of the website look good when adjusting the width/height of the website to any sensible resolution
+    * QR codes linked to correct menu item
  
 * index.html -
     * The buttons stack horizontally on mobile and spread out vertically on wider screens

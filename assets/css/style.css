@@ -316,16 +316,12 @@ footer .social-media-links {
 }
 
 .menu-modals > .modal-content > .modal-header {
-    margin: auto;
     width: 100%;
     padding-bottom: 0;
 }
 
 .menu-modals > .modal-content > .modal-header > h2 {
-    text-align: center;
     margin: auto;
-    margin-left: 20px;
-    margin-right: 20px;
 }
 
 .menu-modals > .modal-content > .modal-header > .close{
