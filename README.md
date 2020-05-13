@@ -331,7 +331,7 @@ Steps to publish to GitHub Pages
 3. From dropdown menu select the **master branch** to publish the master branch on GitHub pages
 4. Once published the link to the live page will be shown in the **GitHub Pages** section
  
-### How to add this repository to local workspace
+#### How to add this repository to local workspace
  
 To clone FreshGreen website from GitHub :-
 1. In your IDE terminal, navigate locally to the directory you want the repository to be stored.
