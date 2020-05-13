@@ -321,6 +321,9 @@ footer .social-media-links {
 }
 
 .menu-modals > .modal-content > .modal-header > h2 {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
     margin: auto;
 }
 
