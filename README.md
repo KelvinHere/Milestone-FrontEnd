@@ -120,20 +120,21 @@ Below are goals the customer should expect from this site.
  
 ##### Main page
 The front page of the website is as simple as possible while giving the user the ability to get to any page in one click, the page only gets "busy" as you scroll down and want to see more images of the restaurant / food for sale.
-* A hero image to set the tone of the company ethos and expected type of product.  This will have links to all other pages on the site through main page buttons and navbar.
-* Footer on the index page will hide before it clashes with navigation buttons (for lower resolution screens).
+* Large buttons to MENU / EVENTS / LOCATION
+* A hero image to set the tone of the company ethos and expected type of product.
+* Social media buttons as a footer on mobile, these will hide before they clash with navigation buttons.
 * A reactive set of images of the restaurant and pictures of some food available will be at the bottom of the page, if clicked links to [Menu Page](https://kelvinhere.github.io/Milestone-FrontEnd/menu.html "Menu page for FreshGreen")
  
 ##### Menu Item Page
-This page is made to allow the customer to quickly scan through menu items and get an idea of what they may want, extra information is only shown if the user clicks an item to avoid information overload.
-* Shows off the restaurant's menu items through a picture and simple descriptive text
+This page is made to allow the customer to quickly scan through menu items and get an idea of what they may want to order.
+* Menu items shown through a picture and descriptive text
 * Menu items are clickable, opening up a larger image in a bootstrap modal, this gives more information on nutrition and allergens.  
 * From the menu item model there is a QR order button that exposes a QR code to self service order in the restaurant.
- 
- 
+  
 ##### Events page
-The events page is to encourage repeat custom, having a page updated weekly gives users a reason to revisit the site even if they already know the menu.
-* A page to show current events and enter a weekly delivery draw.  This page's goal is to give the customers a reason to regularly access the website.
+The events page is to encourage repeat custom.
+* Current weekly event, to give users a reason to revisit the website regularly
+* Weekly draw, to give users an extra incentive to order from FreshGreen
 * Events page **enter draw** form is available as a modal accessed through a button on mobile or displayed immediately in a column on larger screens.
 * The **draw** form takes the below inputs from the user, correct formats needed for email and entry code :-
     * Name
@@ -143,16 +144,18 @@ The events page is to encourage repeat custom, having a page updated weekly give
  
 ##### Location page
 The location page simply gives customers the ability to locate / contact and find opening hours of the restaurant.
-* A simple page with opening hours, clickable phone number, address and an embedded google maps link and GPS coordinates.
+* Opening hours
+* Clickable phone number
+* Address and an embedded google maps link with GPS coordinates.
 * If viewing the map on smaller screens the opening hours are not usually visible, in this case a prominent **Opening Hours** button will appear on screen with a direct link to them to avoid the user missing this information.
 * On larger screens the **Opening Hours** button is not needed so will be hidden.
 * A reactive set of images of the restaurant and pictures of some food available will be at the bottom of the page, if clicked links to [Menu Page](https://kelvinhere.github.io/Milestone-FrontEnd/menu.html "Menu page for FreshGreen")
  
 ##### Global features
+* Navigation will collapse to a menu icon on mobile to avoid the screen being too busy, in this case social media icons will be displayed as a Footer.
 * Some background image positions/magnifications change depending on screen width.
 * Background images are available in different resolutions depending on screen resolution starting with lower resolutions for mobile, to reduce used bandwidth and speed up site load times over mobile.
 * Responsive design will rearrange buttons / images / columns / tables to appropriate sizes depending on resolution of screen **as shown in wireframes**.
-* Navigation will collapse to a menu icon on mobile to avoid the screen being too busy, in this case social media icons will be displayed as a Footer.
 * Social media icons move to the top navigation bar at higher resolutions.
 * Width of some elements are capped to avoid ugly layout and stretched items at very high resolutions.
 * simple javascript button to show hide image.
