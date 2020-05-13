@@ -33,7 +33,7 @@ FreshGreen caters to workers for eat in and take-away healthy food.
         - [Future features](#future-features)
 
 3. [**Testing**](#testing)
-    * [**HTML Validator**](#html-validator)
+    * [**HTML and CSS Validation**](#html-and-css-validation)
     * [**Visual inspection and manual testing**](#visual-inspection-and-manual-testing)
     * [**User stories tested**](#user-stories-tested)
 
@@ -208,9 +208,20 @@ The location page simply gives customers the ability to locate / contact and fin
  
 ## Testing
  
-### HTML Validator
-- Each page has been checked with the HTML validator at validator.w3.org, errors and warnings have been corrected.
-    - [index.html]
+### HTML and CSS Validation
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
+    </a>
+</p>
+
+- Each page has been checked with the HTML validator at validator.w3.org.
+    * [index.html test](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkelvinhere.github.io%2FMilestone-FrontEnd%2Findex.html)
+    * [menu.html test](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkelvinhere.github.io%2FMilestone-FrontEnd%2Fmenu.html)
+    * [events.html test](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkelvinhere.github.io%2FMilestone-FrontEnd%2Fevents.html)
+    * [location.html test](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkelvinhere.github.io%2FMilestone-FrontEnd%2Flocation.html)
+    * [CSS direct input test](https://validator.w3.org/#validate_by_input) - Copy CSS from [style.css](https://github.com/KelvinHere/Milestone-FrontEnd/blob/master/assets/css/style.css)
+
 - Each page has been spell checked with [W3C Spell checker](https://www.w3.org/2002/01/spellchecker 'W3C spell checker link').
  
 ### Visual inspection and manual testing
