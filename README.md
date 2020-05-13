@@ -5,7 +5,6 @@ is a stylish reactive mobile first website for the FreshGreen restaurant, design
 FreshGreen caters to workers for eat in and take-away healthy food.
 
 * [Github Pages Live Link](https://kelvinhere.github.io/Milestone-FrontEnd/ 'FreshGreen website GitHub pages link') 
-* [Gitpod Snapshot Link](https://none.html)
 * [GitHub Repository](https://github.com/KelvinHere/Milestone-FrontEnd/ 'Gitpod repository link')
 
 
