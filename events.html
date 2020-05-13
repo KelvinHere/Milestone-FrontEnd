@@ -1,150 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Caveat:700%7CKavivanar&display=swap" rel="stylesheet">
-        <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
-        <title>FreshGreen Events</title>
-    </head>
-    
-	<body>
-		<!--=================================================Navigation Bar-->
-		<nav class="navbar navbar-expand-lg">
-			<a class="nav-brand" href="index.html">FreshGreen</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-		        <i class="fas fa-bars navbar-menu-icon"></i>
-		    </button>
-			<div class="collapse navbar-collapse" id="navbarToggler">
-				<ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a href="index.html" class="dropdown-item">Home</a></li>
-                    <li class="nav-item"><a href="menu.html" class="dropdown-item">Menu</a></li>
-                    <li class="active nav-item"><a href="events.html" class="dropdown-item">Events</a></li>
-                    <li class="nav-item"><a href="location.html" class="dropdown-item">Location</a></li>
-                    <li class="nav-social-media-item nav-item">
-                        <div class="nav-social-media-bar">
-                            <a href="https://www.facebook.com/" class="social-media-links" target="_blank"><i class="fab fa-facebook-square"></i></a>
-                            <a href="https://www.instagram.com" class="social-media-links" target="_blank"><i class="fab fa-instagram-square"></i></a>
-                            <a href="https://twitter.com" class="social-media-links" target="_blank"><i class="fab fa-twitter-square"></i></a>
-                            <a href="https://www.youtube.com/" class="social-media-links" target="_blank"><i class="fab fa-youtube-square"></i></a>
-                        </div>
-				    </li>
-				</ul>
-			</div>
-		</nav>
-        <!--=================================================location-->
-        <div class="events-article-background"></div>
-		<section class="events-article">
-            <div class="fluid-container events-wrapper">
-                <div class="row">
-                    <div class="col-12 col-lg-8 px-0 events-column">
-                        <div class="event-cell-wrapper">
-                            <h3>This weeks event</h3>
-                            <div class="event-image-wrapper">
-                                <img src="assets/images/cafe-items/cafe-pixabay-doughnuts.jpg" alt="Gourmet doughnuts stall">
-                            </div>
-                            <p>Free gourmet doughnut with every main over €4.99 this <strong>Thursday!</strong></p>
-                            <div class="enter-draw-wrapper">
-                                <h3>Enter Draw</h3>
-                                <p>For the chance to win your office a <strong>"Free Friday - Work Delivery"</strong></p>
-                                <button class="btn btn-outline-danger events-button" data-toggle="modal" data-target="#modal-enter-draw">Enter Draw</button>
-                            </div>
-                        </div>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Caveat:700%7CKavivanar&display=swap" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <title>FreshGreen Events</title>
+</head>
+
+<body>
+    <!--=================================================Navigation Bar-->
+    <nav class="navbar navbar-expand-lg">
+        <a class="nav-brand" href="index.html">FreshGreen</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+            aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars navbar-menu-icon"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a href="index.html" class="dropdown-item">Home</a></li>
+                <li class="nav-item"><a href="menu.html" class="dropdown-item">Menu</a></li>
+                <li class="active nav-item"><a href="events.html" class="dropdown-item">Events</a></li>
+                <li class="nav-item"><a href="location.html" class="dropdown-item">Location</a></li>
+                <li class="nav-social-media-item nav-item">
+                    <div class="nav-social-media-bar">
+                        <a href="https://www.facebook.com/" class="social-media-links" target="_blank"><i
+                                class="fab fa-facebook-square"></i></a>
+                        <a href="https://www.instagram.com" class="social-media-links" target="_blank"><i
+                                class="fab fa-instagram-square"></i></a>
+                        <a href="https://twitter.com" class="social-media-links" target="_blank"><i
+                                class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.youtube.com/" class="social-media-links" target="_blank"><i
+                                class="fab fa-youtube-square"></i></a>
                     </div>
-                    <div class="col-12 col-lg-4 px-0 enter-draw-column">
-                        <div class="event-cell-wrapper">
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--=================================================location-->
+    <div class="events-article-background"></div>
+    <section class="events-article">
+        <div class="fluid-container events-wrapper">
+            <div class="row">
+                <div class="col-12 col-lg-8 px-0 events-column">
+                    <div class="event-cell-wrapper">
+                        <h3>This weeks event</h3>
+                        <div class="event-image-wrapper">
+                            <img src="assets/images/cafe-items/cafe-pixabay-doughnuts.jpg"
+                                alt="Gourmet doughnuts stall">
+                        </div>
+                        <p>Free gourmet doughnut with every main over €4.99 this <strong>Thursday!</strong></p>
+                        <div class="enter-draw-wrapper">
                             <h3>Enter Draw</h3>
                             <p>For the chance to win your office a <strong>"Free Friday - Work Delivery"</strong></p>
-                            <form class="enter-draw-form">
-                                <div class="form-group">
-                                    <label for="name-id">Name</label>
-                                    <input type="text" class="form-control" id="name-id" placeholder="Enter Name" required>
-                                </div>                            
-                                <div class="form-group">
-                                    <label for="email-input-id">Email address</label>
-                                    <input type="email" class="form-control" id="email-input-id" placeholder="Enter e-mail" required>
-                                </div>
-                                <div class="form-group">
-                                    <label for="entry-code-id">Entry code <small>(5 digit)</small></label>
-                                    <input type="text" pattern="[0-9]{5}" class="form-control" id="entry-code-id" placeholder="Entry code from reciept" required>
-                                </div>
-                                <div class="form-group form-button">
-                                    <button type="submit" value="submit" class="btn btn-outline-danger events-button">Submit</button>
-                                </div>
-                            </form>
+                            <button class="btn btn-outline-danger events-button" data-toggle="modal"
+                                data-target="#modal-enter-draw">Enter Draw</button>
                         </div>
                     </div>
                 </div>
-            </div>
-		</section>
-        <!--=================================================Food Table-->
-        <a href="menu.html">
-            <div class="food-table">
-                <div class="flex-container">
-                    <div class="flex-column">
-                        <img src="assets/images/menu-items/food-item-6.jpg" alt="Smoked salmon and poached egg on toast" class="food-table-image">
-                        <img src="assets/images/cafe-items/cafe-pixabay-3.jpg" alt="Cafe food bar" class="food-table-image">
-                        <img src="assets/images/menu-items/food-item-3.jpg" alt="Avocado on toast" class="food-table-image">
-                    </div>
-                    <div class="flex-column">
-                        <img src="assets/images/cafe-items/cafe-pixabay-1.jpg" alt="Cafe coffee bar" class="food-table-image">
-                        <img src="assets/images/menu-items/food-item-4.jpg" alt="Cafe seating" class="food-table-image">
-                        <img src="assets/images/cafe-items/cafe-pixabay-2.jpg" alt="Roasted ground coffee" class="food-table-image">
-                    </div>
-                    <div class="flex-column">
-                        <img src="assets/images/menu-items/food-item-9.jpg" alt="Mixed Fruit" class="food-table-image">
-                        <img src="assets/images/cafe-items/cafe-pixabay-4.jpg" alt="cafe seating" class="food-table-image">
-                        <img src="assets/images/menu-items/food-item-8.jpg" alt="Oats with berries and nuts" class="food-table-image">
+                <div class="col-12 col-lg-4 px-0 enter-draw-column">
+                    <div class="event-cell-wrapper">
+                        <h3>Enter Draw</h3>
+                        <p>For the chance to win your office a <strong>"Free Friday - Work Delivery"</strong></p>
+                        <form class="enter-draw-form">
+                            <div class="form-group">
+                                <label for="name-id">Name</label>
+                                <input type="text" class="form-control" id="name-id" placeholder="Enter Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email-input-id">Email address</label>
+                                <input type="email" class="form-control" id="email-input-id" placeholder="Enter e-mail"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <label for="entry-code-id">Entry code <small>(5 digit)</small></label>
+                                <input type="text" pattern="[0-9]{5}" class="form-control" id="entry-code-id"
+                                    placeholder="Entry code from reciept" required>
+                            </div>
+                            <div class="form-group form-button">
+                                <button type="submit" value="submit"
+                                    class="btn btn-outline-danger events-button">Submit</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
-        </a>
-        <!--=================================================Footer social media buttons-->
-		<footer class="container-fluid index-footer">
-			<div class="row d-flex justify-content-center">
-				<a href="https://www.facebook.com/" class="social-media-links" target="_blank"><i class="fab fa-facebook-square"></i></a>
-				<a href="https://www.instagram.com" class="social-media-links" target="_blank"><i class="fab fa-instagram-square"></i></a>
-				<a href="https://twitter.com" class="social-media-links" target="_blank"><i class="fab fa-twitter-square"></i></a>
-				<a href="https://www.youtube.com/" class="social-media-links" target="_blank"><i class="fab fa-youtube-square"></i></a>
-			</div>
-		</footer>
-        <!--=================================================Modal enter draw form-->
-        <div class="modal fade menu-modal-root" id="modal-enter-draw" data-target="modal-enter-draw" tabindex="-1" role="dialog" aria-hidden="true">
-			<div class="modal-dialog modal-lg menu-modals">
-				<div class="modal-content">
-				    <div class="modal-header modal-event-form">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">×</span>
-						</button>
-                        <div class="event-cell-wrapper-modal">
-                            <h3>Enter Draw</h3>
-                            <form class="enter-draw-form-modal">
-                                <div class="form-group">
-                                    <label for="name-id-modal">Name</label>
-                                    <input type="text" class="form-control" id="name-id-modal" placeholder="Enter Name" required>
-                                </div>                            
-                                <div class="form-group">
-                                    <label for="email-input-id">Email address</label>
-                                    <input type="email" class="form-control" id="email-input-id-modal" placeholder="Enter e-mail" required>
-                                </div>
-                                <div class="form-group">
-                                    <label for="entry-code-id">Entry code <small>(5 digit)</small></label>
-                                    <input type="text" pattern="[0-9]{5}" class="form-control" id="entry-code-id-modal" placeholder="Entry code from reciept" required>
-                                </div>
-                                <div class="form-group form-button">
-                                    <button type="submit" value="submit" class="btn btn-outline-danger events-button">Submit</button>
-                                </div>
-                            </form>
-                        </div>
-				    </div>
-				</div>
-			</div>
         </div>
-        <!--=================================================Scripts-->
-        <script src="https://kit.fontawesome.com/744f7fd212.js" crossorigin="anonymous" defer></script>
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous" defer></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous" defer></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous" defer></script>
-    </body>
+    </section>
+    <!--=================================================Food Table-->
+    <a href="menu.html">
+        <div class="food-table">
+            <div class="flex-container">
+                <div class="flex-column">
+                    <img src="assets/images/menu-items/food-item-6.jpg" alt="Smoked salmon and poached egg on toast"
+                        class="food-table-image">
+                    <img src="assets/images/cafe-items/cafe-pixabay-3.jpg" alt="Cafe food bar" class="food-table-image">
+                    <img src="assets/images/menu-items/food-item-3.jpg" alt="Avocado on toast" class="food-table-image">
+                </div>
+                <div class="flex-column">
+                    <img src="assets/images/cafe-items/cafe-pixabay-1.jpg" alt="Cafe coffee bar"
+                        class="food-table-image">
+                    <img src="assets/images/menu-items/food-item-4.jpg" alt="Cafe seating" class="food-table-image">
+                    <img src="assets/images/cafe-items/cafe-pixabay-2.jpg" alt="Roasted ground coffee"
+                        class="food-table-image">
+                </div>
+                <div class="flex-column">
+                    <img src="assets/images/menu-items/food-item-9.jpg" alt="Mixed Fruit" class="food-table-image">
+                    <img src="assets/images/cafe-items/cafe-pixabay-4.jpg" alt="cafe seating" class="food-table-image">
+                    <img src="assets/images/menu-items/food-item-8.jpg" alt="Oats with berries and nuts"
+                        class="food-table-image">
+                </div>
+            </div>
+        </div>
+    </a>
+    <!--=================================================Footer social media buttons-->
+    <footer class="container-fluid index-footer">
+        <div class="row d-flex justify-content-center">
+            <a href="https://www.facebook.com/" class="social-media-links" target="_blank"><i
+                    class="fab fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com" class="social-media-links" target="_blank"><i
+                    class="fab fa-instagram-square"></i></a>
+            <a href="https://twitter.com" class="social-media-links" target="_blank"><i
+                    class="fab fa-twitter-square"></i></a>
+            <a href="https://www.youtube.com/" class="social-media-links" target="_blank"><i
+                    class="fab fa-youtube-square"></i></a>
+        </div>
+    </footer>
+    <!--=================================================Modal enter draw form-->
+    <div class="modal fade menu-modal-root" id="modal-enter-draw" data-target="modal-enter-draw" tabindex="-1"
+        role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg menu-modals">
+            <div class="modal-content">
+                <div class="modal-header modal-event-form">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                    <div class="event-cell-wrapper-modal">
+                        <h3>Enter Draw</h3>
+                        <form class="enter-draw-form-modal">
+                            <div class="form-group">
+                                <label for="name-id-modal">Name</label>
+                                <input type="text" class="form-control" id="name-id-modal" placeholder="Enter Name"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email-input-id">Email address</label>
+                                <input type="email" class="form-control" id="email-input-id-modal"
+                                    placeholder="Enter e-mail" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="entry-code-id">Entry code <small>(5 digit)</small></label>
+                                <input type="text" pattern="[0-9]{5}" class="form-control" id="entry-code-id-modal"
+                                    placeholder="Entry code from reciept" required>
+                            </div>
+                            <div class="form-group form-button">
+                                <button type="submit" value="submit"
+                                    class="btn btn-outline-danger events-button">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--=================================================Scripts-->
+    <script src="https://kit.fontawesome.com/744f7fd212.js" crossorigin="anonymous" defer></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"
+        defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"
+        defer></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"
+        defer></script>
+</body>
+
 </html>
