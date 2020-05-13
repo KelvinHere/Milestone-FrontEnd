@@ -1,33 +1,81 @@
-# <p style="text-align: center;">**FreshGreen - Restaurant**</p>
-[FreshGreen Website link](https://kelvinhere.github.io/Milestone-FrontEnd/ 'FreshGreen website GitHub pages link')
- 
-A stylish reactive mobile first website for FreshGreen restaurant to attract customers and increase repeat custom.  FreshGreen caters to workers for eat in and take-away
-healthy food, and is designed to give this impression via color palette and background images throughout the site.
- 
-The FreshGreen website will allow a customer to quickly find all critical information in as few clicks as possible while keeping a slick uncluttered look.  While browsing the 
-customer will be funneled to one of the restaurants USPs, a **QR quick order code**, allowing fast purchase from one of the restaurant's take-away kiosks.
- 
-Business goals
+<h1 style="text-align: center;">FreshGreen - Restaurant</h1>
+
+The [FreshGreen](https://kelvinhere.github.io/Milestone-FrontEnd/ 'FreshGreen website GitHub pages link') website
+is a stylish reactive mobile first website for the FreshGreen restaurant, designed to attract customers and increase repeat custom.
+FreshGreen caters to workers for eat in and take-away healthy food.
+
+* [Github Pages Live Link](https://kelvinhere.github.io/Milestone-FrontEnd/ 'FreshGreen website GitHub pages link') 
+* [Gitpod Snapshot Link](https://none.html)
+* [GitHub Repository](https://github.com/KelvinHere/Milestone-FrontEnd/ 'Gitpod repository link')
+
+
+## Contents
+
+1. [**UX**](#ux)
+    * [**Project Purpose**](#project-purpose)
+    * [**Business Goals**](#business-goals)
+    * [**Customers Experiences**](#customers-experience)
+    * [**User Stories**](#user-stories)
+    * [**Design Choices**](#design-choices)
+    * [**Wireframe designs**](#wireframe-designs)
+        - [Mobile wireframes](#mobile-wireframes)
+        - [Desktop wireframes](#desktop-wireframes)
+
+2. [**Features**](#features)
+    * [**Existing Features**](#existing-features)
+        - [Main page](#main-page)
+        - [Menu Item Page](#menu-item-page)
+        - [Events page](#events-page)
+        - [Location page](#location-page)
+        - [Global features](#global-features)
+        - [Features Left to Implement](#features-left-to-implement)
+        - [Features removed or changed during development](#features-removed-or-changed-during-development)
+        - [Future features](#future-features)
+
+3. [**Testing**](#testing)
+    * [**HTML Validator**](#html-validator)
+    * [**Visual inspection and manual testing**](#visual-inspection-and-manual-testing)
+    * [**User stories tested**](#user-stories-tested)
+
+4. [**Deployment**](#deployment)
+    * [**Deployment info**](#deployment-info)
+    * [**Using git**](#using-git)
+    * [**Live website location deployment**](#live-website-location-deployment)
+    * [**How to add this repository to local workspace**](#how-to-add-this-repository-to-local-workspace)
+
+5. [**Credits**](#credits)
+6. [**Content**](#content)
+7. [**Media**](#media)
+8. [**Acknowledgements**](#acknowledgements)
+
+## UX
+
+#### Project Purpose
+
+This websites purpose is to promote the FreshGreen brand while attracting customers and increasing repeat custom.  
+
+### Business Goals
+
+* Deliver a customer centric website. 
 * Promote brand awareness
 * Drive custom and repeat custom to the restaurant
 * Promote use of self service to reduce need for front of house staff during peak periods
 * Increase sales from customers with allergens by including allergy information
  
-Customer goals
-* Easy to use UX for accessibility to all needed information
-* Easy to read menu items that give customer more information when clicked
-* Quick ordering process
-* Give customers who suffer from allergies quick access to menu item allergens
-* Quick access to location and opening hours
+### Customers Experience
+
+As a mobile first customer centric website it must be lightweight, simple to use and not have too much information displayed at any one time.  
+This site was designed with consistency in mind, and is intuitive to use.  The main features of this site are accessible in one click and ordered in a sensible fashion.  
+Below are goals the customer should expect from this site.
+
+* Simple user interface
 * One click navigation to important information
- 
-## UX
- 
-Visitors to this site will be choosing something to eat or finding out more information about the restaurant.  All design is built keeping these core tasks in mind.
- 
-This website is customer based, and will be viewed mostly on mobile devices. To achieve best results the UX needs to be simple and allow the user to reach their information through as few clicks as possible.  Because of
-screen size limitations of mobile devices the UI will be mostly vertically stacked, but for our desktop users the website will reorder into a wider column based design.  Both designs allow the user to view its content without cluttering the screen.
- 
+* Easy to read/select food items
+* Extra information on food items when needed
+* Access to allergen information
+* Access to opening hours and location
+* Quick ordering process
+
 ### User stories
 * As a previous customer, I want to choose something to eat because I'm hungry.
 * As Charlie, a friend recommended the restaurant, I want to find out where it is so I can visit.
@@ -37,24 +85,35 @@ screen size limitations of mobile devices the UI will be mostly vertically stack
 * As a health conscious person, I want to know the ingredients of my lunch, so I can stay within my nutrition boundaries.
 * As Paulie, I want to order without talking to anyone, I want this service option.
 * As a shift worker, I want to know the opening hours, so I am not wasting a trip to a closed restaurant. 
- 
- 
-### Wireframes
+
+### Design Choices
+
+* Backgrounds 
+    - Images of healthy food ingredients were used to reinforce the image FreshGreen wants to impress on its customers, the backgrounds simple yet themed convey the ethos of FreshGreen to its customers.
+
+* Colours
+    - To again reinforce FreshGreens image, a light green color has been used on the text headings and menu titles, where extra information is displayed in a neutral off-white.  Any critical information/functionality (Allergen information and some buttons) are orange to attract attention and contrast with the site to make sure users do not miss it.
+
+* Fonts
+    - To align with the fresh, organic, green style of the restaurant the font [Caveat](https://fonts.google.com/specimen/Caveat?query=Caveat 'Link to caveat font') was chosen for the logo for its naturally written but readable style.
+    - The font [Kavivanar](https://fonts.google.com/specimen/Kavivanar?query=Kavivanar 'Link to Kavivanar') was chosen as the main font for information on the site again for its more natural and less clinical feel than more angular fonts.  This font was much better than the above logo font for readability of longer sentences.
+
+### Wireframe designs
 #### Mobile wireframes
 ![Mobile1](https://github.com/KelvinHere/Milestone-FrontEnd/blob/master/design-assets/mobile1.jpg?raw=true "Mobile mockup index and menu")
 ![Mobile2](https://github.com/KelvinHere/Milestone-FrontEnd/blob/master/design-assets/mobile2.jpg?raw=true "Mobile mockup events and location")
+##### Desktop wireframes
 ##### Index page on desktop
 ![Index Mockup](https://github.com/KelvinHere/Milestone-FrontEnd/blob/master/design-assets/index-desktop.jpg?raw=true "Index page mockup on desktop")
-#### Menu page on desktop
+###### Menu page on desktop
 ![Menu Mockup](https://github.com/KelvinHere/Milestone-FrontEnd/blob/master/design-assets/menu-desktop.jpg?raw=true "Menu page mockup on desktop")
-#### Menu modal select on desktop
+###### Menu modal select on desktop
 ![Menu Modal Mockup](https://github.com/KelvinHere/Milestone-FrontEnd/blob/master/design-assets/menu-modal-desktop.jpg?raw=true "Menu modal page mockup on desktop")
-#### Events on desktop
+###### Events on desktop
 ![Events Mockup](https://github.com/KelvinHere/Milestone-FrontEnd/blob/master/design-assets/events-desktop.jpg?raw=true "events page mockup on desktop")
-#### Location on desktop
+###### Location on desktop
 ![Location Mockup](https://github.com/KelvinHere/Milestone-FrontEnd/blob/master/design-assets/location-desktop.jpg?raw=true "location page mockup on desktop")
- 
- 
+  
 ## Features
  
 ### Existing Features
@@ -104,7 +163,7 @@ The location page simply gives customers the ability to locate / contact and fin
 ### Features Left to Implement
 * None
  
-### Features removed/changed during development
+### Features removed or changed during development
 * Removed : Allergen information placed on to picture of food item
     - Reason : Image looked messy or icons were too small and unreadable so were removed but can still be seen when item is clicked
 * Changed : Index page buttons stack underneath hero image on small screens
@@ -148,6 +207,7 @@ The location page simply gives customers the ability to locate / contact and fin
  
 ### HTML Validator
 - Each page has been checked with the HTML validator at validator.w3.org, errors and warnings have been corrected.
+    - [index.html]
 - Each page has been spell checked with [W3C Spell checker](https://www.w3.org/2002/01/spellchecker 'W3C spell checker link').
  
 ### Visual inspection and manual testing
@@ -223,7 +283,7 @@ The location page simply gives customers the ability to locate / contact and fin
  
 ## Deployment
  
-### Deployment Location
+### Deployment info
 Website created and developed in GitPod, version controlled with Git and hosted on GitHub
  
 The template used to start this project was from [Code Institute](https://codeinstitute.net/ 'Code Institute link') and was the [Code Institute - GitPod Full Template](https://github.com/Code-Institute-Org/gitpod-full-template 'Code Institue GitPod template')
@@ -247,7 +307,7 @@ Process
     - run this command `git reset --hard #the first 6 commit numbers here`
     - The project will be restored to this commit point
  
-#### Live site location
+#### Live website location deployment
 This webpage has been deployed to github pages - [FreshGreen Link](https://kelvinhere.github.io/Milestone-FrontEnd/ 'FreshGreen link hosted on GitHub pages')
  
 Steps to publish to GitHub Pages
@@ -256,7 +316,7 @@ Steps to publish to GitHub Pages
 3. From dropdown menu select the **master branch** to publish the master branch on GitHub pages
 4. Once published the link to the live page will be shown in the **GitHub Pages** section
  
-### Deploy locally
+### How to add this repository to local workspace
  
 To clone FreshGreen website from GitHub :-
 1. In your IDE terminal, navigate locally to the directory you want the repository to be stored.
@@ -269,7 +329,7 @@ To clone FreshGreen website from GitHub :-
  
 ### Content
  
-- Text on this website created by KelvinHere
+- Contents of this website created by KelvinHere, with the exception of the media in the [next section](#media)
  
 ### Media
  
