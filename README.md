@@ -161,7 +161,8 @@ The location page simply gives customers the ability to locate / contact and fin
 * FontAwesome icons.
 * Google fonts.
 * bootstrap.
-* Code beautified
+* Code beautified.
+* Colors represented by variables at top of [style.css](https://github.com/KelvinHere/Milestone-FrontEnd/blob/master/assets/css/style.css 'style.css github link') for easy modification.
  
 ### Features Left to Implement
 * None
