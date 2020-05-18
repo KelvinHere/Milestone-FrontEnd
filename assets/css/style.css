@@ -23,7 +23,6 @@
 
 body {
     /*Main style variables*/
-    /*#9bd496 green*/
     --font-main-color: rgb(155,212,150); /*Used for headings and navigation*/
     --font-main-color-alpha: rgba(155,212,150,0.5); /*Used for active nav items, must match font-main-color but with opacity of 0.5*/
     --font-secondary-color: #EDF5E1; /*Used for bulk text*/
