@@ -1,15 +1,43 @@
+/* Table of contents
+    1. Global starting style
+    2. Navbar
+    3. Index page elements
+    4. Button styling
+    5. Below content food table
+    6. Footer - social media links
+    7. Menu Page
+        7.1. Menu page elements
+        7.2. Menu page modals
+    8. Location page elements
+    9. Events page elements
+    10. Media Query 
+*/
+
+/*-----------------------------------------------
+    1. Global starting style
+-----------------------------------------------*/
 * {
     margin:0;
     padding:0;
 }
 
 body {
+    /*Main style variables*/
+    /*#9bd496 green*/
+    --font-main-color: rgb(155,212,150); /*Used for headings and navigation*/
+    --font-main-color-alpha: rgba(155,212,150,0.5); /*Used for active nav items, must match font-main-color but with opacity of 0.5*/
+    --font-secondary-color: #EDF5E1; /*Used for bulk text*/
+    --font-alert-color: #FFA500; /*Used for important text/buttons to attract attention*/
+    --font-alert-color-hover: #FF7C00; /*Hover color for font-alert-color*/
+
     font-family: 'Kavivanar', sans-serif;
     background: black;
-    color: #9bd496;
+    color: var(--font-main-color);
 }
 
-/*------------------------------------------------------------ Navbar */
+/*-----------------------------------------------
+    2. Navbar
+-----------------------------------------------*/
 .navbar {
     position: fixed;
     width: 100%;
@@ -20,7 +48,7 @@ body {
 }
 
 .navbar a {
-    color: #9ccc9c;
+    color: var(--font-main-color);
 }
 
 .navbar > a {
@@ -48,7 +76,7 @@ body {
 }
 
 .navbar-collapse a:hover {
-    background-color: #9bd496;
+    background-color: var(--font-main-color);
     color: black;
 }
 
@@ -62,11 +90,11 @@ body {
 }
 
 .navbar-menu-icon {
-    color: #9ccc9c;
+    color: var(--font-main-color);
 }
 
 .navbar-nav .active {
-    background-color: rgba(155,212,150,0.5);
+    background-color: var(--font-main-color-alpha);
 }
 
 .navbar-nav .active a {
@@ -78,7 +106,7 @@ body {
     padding-right: 1px;
     margin: 0 15px 0 0;
     font-size: 32px;
-    color: #9ccc9c
+    color: var(--font-main-color)
 }
 
 .nav-social-media-bar .social-media-links:hover {
@@ -101,7 +129,9 @@ body {
     color: #c4302b;
 }
 
-/*------------------------------------------------------------ Index page */
+/*-----------------------------------------------
+    3. Index page elements
+-----------------------------------------------*/
 .main-article {
     background-image: url("../images/home/hero-bg-sm.jpg");
     background-repeat: no-repeat;
@@ -138,7 +168,9 @@ body {
     margin: 0 20px 0 20px;
 }
 
-/*------------------------------------------------------------ Buttons */
+/*-----------------------------------------------
+    4. Button styling
+-----------------------------------------------*/
 .main-buttons-container {
     padding: 0;
 }
@@ -150,13 +182,13 @@ body {
 }
 
 .btn-outline-warning {
-    color: #9bd496;
-    border-color: #9bd496;
+    color: var(--font-main-color);
+    border-color: var(--font-main-color);
 }
 
 .btn-outline-warning:hover {
-    background-color: #9bd496;
-    border-color: #9bd496;
+    background-color: var(--font-main-color);
+    border-color: var(--font-main-color);
 }
 
 .index-large-buttons {
@@ -173,7 +205,9 @@ body {
     margin: 0;
 }
 
-/*------------------------------------------------------------ Food Table */
+/*-----------------------------------------------
+    5. Below content food table
+-----------------------------------------------*/
 .food-table {
     position: relative;
 }
@@ -192,10 +226,12 @@ body {
     vertical-align: middle;
     width: 100%;
     padding: 1px;
-    background-color: #9bd496;
+    background-color: var(--font-main-color);
 }
 
-/*------------------------------------------------------------ Footer */
+/*-----------------------------------------------
+    6. Footer - social media links
+-----------------------------------------------*/
 footer {
     position: fixed;
     bottom: 0;
@@ -206,13 +242,16 @@ footer .social-media-links {
     padding: 5px 6px 5px 6px;
     margin: 0 5px 5px 5px;
     font-size: 32px;
-    color: #9ccc9c;
+    color: var(--font-main-color);
     background-color: rgba(0,0,0,0.6);
     border-radius: 25%;
     line-height: 0;
 }
 
-/*------------------------------------------------------------ Menu Page - Menu table */
+/*-----------------------------------------------
+    7. Menu Page
+        7.1. Menu page elements
+-----------------------------------------------*/
 .menu-article-background {
     background-image: url("../images/menu/menu-background-sm.jpg");
     background-repeat: no-repeat;
@@ -269,15 +308,15 @@ footer .social-media-links {
 }
 
 .food-info > .food-title {
-    color: #9bd496;
+    color: var(--font-main-color);
 }
 
 .food-info > .food-description {
-    color: #EDF5E1;
+    color: var(--font-secondary-color);
 }
 
 .food-info > .food-price {
-    color: #9bd496;
+    color: var(--font-main-color);
     text-align: right;
 }
 
@@ -291,9 +330,11 @@ footer .social-media-links {
     background-color: rgba(0, 0, 0, 0);
 }
 
-/*------------------------------------------------------------ Menu modals */
+/*-----------------------------------------------
+        7.2. Menu page modals
+-----------------------------------------------*/
 .modal-bg-color {
-    border-color: #9bd496;
+    border-color: var(--font-main-color);
     border-width: 2px;
 }
 
@@ -303,7 +344,7 @@ footer .social-media-links {
 
 .menu-modals > .modal-content {
     border-width: 2px;
-    border-color: #9bd496;
+    border-color: var(--font-main-color);
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 15px;
@@ -331,7 +372,7 @@ footer .social-media-links {
     font-family: Sans-serif;
     font-size: 36px;
     float: right;
-    color: #9bd496;
+    color: var(--font-main-color);
 }
 
 .menu-modal-info-wrapper {
@@ -374,7 +415,7 @@ footer .social-media-links {
     padding-bottom: 2vh;
     margin-bottom: 0;
     font-size: 16px;
-    color: orange;
+    color: var(--font-alert-color);
     text-align: center;
 }
 
@@ -388,13 +429,13 @@ footer .social-media-links {
     margin-bottom: 1vh;
     font-size: 25px;
     height: 100%;
-    background-color: orange;
-    border-color: orange;
+    background-color: var(--font-alert-color);
+    border-color: var(--font-alert-color);
     color: black;
 }
 
 .price-and-qr-wrapper > button:hover {
-    background-color: #FF7C00;
+    background-color: var(--font-alert-color-hover);
     border-color: white;
 }
 
@@ -402,7 +443,7 @@ footer .social-media-links {
     padding: 3px;
     margin-top: 1vh;
     margin-bottom: 0px !important;
-    background-color: #9bd496;
+    background-color: var(--font-main-color);
     color: black;
     font-size: 30px;
     border-radius: 5px;
@@ -427,7 +468,9 @@ footer .social-media-links {
     max-height: 100%;
 }
 
-/*------------------------------------------------------------ Location style */
+/*-----------------------------------------------
+    8. Location page elements
+-----------------------------------------------*/
 .location-article > .fluid-container {
     padding-top: 60px;
 }
@@ -447,7 +490,7 @@ footer .social-media-links {
 
 .address > p {
     margin-bottom: 0px;
-    color: #EDF5E1;
+    color: var(--font-secondary-color);
 }
 
 .location-columns > .location-cell-border > h2 {
@@ -488,7 +531,7 @@ footer .social-media-links {
 }
 
 .gps-wrapper p {
-    color: #EDF5E1;
+    color: var(--font-secondary-color);
 }
 
 .opening-hours-button-wrapper {
@@ -499,18 +542,18 @@ footer .social-media-links {
 
 .opening-hours-button {
     font-size: 20px;
-    background-color: orange;
-    border-color: orange;
+    background-color: var(--font-alert-color);
+    border-color: var(--font-alert-color);
     color: black;
 }
 
 .opening-hours-button:hover {
-    background-color: #FF7C00;
+    background-color: var(--font-alert-color-hover);
     border-color: white;
 }
 
 .hours-column td {
-    color: #EDF5E1;
+    color: var(--font-secondary-color);
 }
 
 .hours-column table tr {
@@ -535,7 +578,7 @@ footer .social-media-links {
 }
 
 .location-cell-border {
-    border: 2px solid #9bd496;
+    border: 2px solid var(--font-main-color);
     padding: 10px 0 10px 0;
     margin: 0 20px 0 20px;
     border-radius: 5px;
@@ -543,7 +586,9 @@ footer .social-media-links {
     height: 100%;
 }
 
-/*------------------------------------------------------------ Events Page */
+/*-----------------------------------------------
+    9. Events page elements
+-----------------------------------------------*/
 .events-article-background {
     background-image: url("../images/events/events-bg-sm.jpg");
     background-repeat: no-repeat;
@@ -564,7 +609,7 @@ footer .social-media-links {
 }
 
 .event-cell-wrapper {
-    border: 2px solid #9bd496;
+    border: 2px solid var(--font-main-color);
     padding: 10px 0 10px 0;
     margin: 0 20px 0 20px;
     border-radius: 5px;
@@ -581,11 +626,11 @@ footer .social-media-links {
     text-align: center;
     padding-top: 20px;
     margin: 0 20px 60px 20px;
-    color: #EDF5E1;
+    color: var(--font-secondary-color);
 }
 
 .event-cell-wrapper label, .modal-content label {
-    color: #EDF5E1;
+    color: var(--font-secondary-color);
 }
 
 .event-image-wrapper {
@@ -626,7 +671,7 @@ footer .social-media-links {
     margin-top: 15px;
     margin-bottom: 15px;
     text-align: center;
-    color: #EDF5E1;
+    color: var(--font-secondary-color);
 }
 
 .telephone-wrapper a {
@@ -652,17 +697,19 @@ footer .social-media-links {
     margin-bottom: 1vh;
     font-size: 25px;
     height: 100%;
-    background-color: orange;
-    border-color: orange;
+    background-color: var(--font-alert-color);
+    border-color: var(--font-alert-color);
     color: black;
 }
 
 .events-button:hover {
-    background-color: #FF7C00;
+    background-color: var(--font-alert-color-hover);
     border-color: white;
 }
 
-/*------------------------------------------------------------ Media Query */
+/*-----------------------------------------------
+    10. Media Query 
+-----------------------------------------------*/
 @media screen and (max-height: 635px) { 
     .main-article {    /*Allow hero image to overflow screen height too small*/
         height: auto;
