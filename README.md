@@ -161,6 +161,7 @@ The location page simply gives customers the ability to locate / contact and fin
 * FontAwesome icons.
 * Google fonts.
 * bootstrap.
+* Code beautified
  
 ### Features Left to Implement
 * None
