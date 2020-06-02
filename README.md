@@ -283,21 +283,21 @@ The location page simply gives customers the ability to locate / contact and fin
     * Clickable telephone link opens dialler
   
 ### User stories tested
-- As a previous customer, I want to choose something to eat because I'm hungry.
+- **As a previous customer, I want to choose something to eat because I'm hungry.**
     * (F1) Menu accessible by one click on either mobile or desktop.
-- As Charlie, a friend recommended the restaurant, I want to find out where it is so I can visit.
+- **As Charlie, a friend recommended the restaurant, I want to find out where it is so I can visit.**
     * (F2) Location accessible by one click, google maps embedded link to location, underneath are GPS coordinates and written address.
-- As an allergy sufferer, I want to view the allergen information so I don’t have a bad reaction.
+- **As an allergy sufferer, I want to view the allergen information so I don’t have a bad reaction.**
     * (F3) Each menu item when clicked shows 'allergen symbols' used by [Erudus](https://erudus.com/)', also under ingredients the allergens are written so customers can double check if unsure of the symbol.
-- As a serial customer, I want to know this week's event because it adds value to my visit
+- **As a serial customer, I want to know this week's event because it adds value to my visit.**
     * (F4) One click to events page, the first item is this week's event, prominent **Enter draw** button on mobile or entry form on desktop.
-- As Bob, I want to try to win the office delivery draw because I want to win lunch for my workmates.
+- **As Bob, I want to try to win the office delivery draw because I want to win lunch for my workmates.**
     * (F5) The events page allows bob to enter the draw with a valid receipt code
-- As a health conscious person, I want to know the ingredients of my lunch, so I can stay within my nutrition boundaries.
+- **As a health conscious person, I want to know the ingredients of my lunch, so I can stay within my nutrition boundaries.**
     * (F6) Each menu item when clicked shows exact ingredients.
-- As Paulie, I want to order without talking to anyone, I want this service option.
+- **As Paulie, I want to order without talking to anyone, I want this service option.**
     * (F7) QR code available via a prominent button once the menu item is selected.    
-- As a shift worker, I want to know the opening hours, so I am not wasting a trip to a closed restaurant. 
+- **As a shift worker, I want to know the opening hours, so I am not wasting a trip to a closed restaurant.**
     * (F8) Opening hours are grouped with location on the location page, anyone looking where the restaurant is will be able to see if it is open too.
 
 ![User Stories](https://github.com/KelvinHere/Milestone-FrontEnd/blob/master/design-assets/user-stories-picture.jpg?raw=true "User stories feature locations")
