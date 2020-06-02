@@ -163,6 +163,7 @@ The location page simply gives customers the ability to locate / contact and fin
 * bootstrap.
 * Code beautified.
 * Colors represented by variables at top of [style.css](https://github.com/KelvinHere/Milestone-FrontEnd/blob/master/assets/css/style.css 'style.css github link') for easy modification.
+* Custom 404 error page with link back to index.html
  
 ### Features Left to Implement
 * None
@@ -248,6 +249,7 @@ The location page simply gives customers the ability to locate / contact and fin
     * Social media buttons appear as a footer if the navbar is collapsed
     * The reactive elements of the website look good when adjusting the width/height of the website to any sensible resolution
     * QR codes linked to correct menu item
+    * An invalid URL gives 404 page with link back to index.html
  
 * index.html -
     * The buttons stack horizontally on mobile and spread out vertically on wider screens
