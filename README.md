@@ -222,9 +222,12 @@ The location page simply gives customers the ability to locate / contact and fin
     * [menu.html test](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkelvinhere.github.io%2FMilestone-FrontEnd%2Fmenu.html)
     * [events.html test](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkelvinhere.github.io%2FMilestone-FrontEnd%2Fevents.html)
     * [location.html test](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkelvinhere.github.io%2FMilestone-FrontEnd%2Flocation.html)
-    * [CSS direct input test](https://validator.w3.org/#validate_by_input) - Copy CSS from [style.css](https://github.com/KelvinHere/Milestone-FrontEnd/blob/master/assets/css/style.css)
+    * [404.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkelvinhere.github.io%2FMilestone-FrontEnd%2F404.html)
+    * [CSS direct input test](https://validator.w3.org/#validate_by_input) - Copy CSS from [style.css](https://github.com/KelvinHere/Milestone-FrontEnd/blob/master/assets/css/style.css) - see note below
 
 - Each page has been spell checked with [W3C Spell checker](https://www.w3.org/2002/01/spellchecker 'W3C spell checker link').
+
+- Note - WC3 validator does not support the use of CSS variables example. `--font-main-color: rgb(155,212,150);` It will give a parse error when declared and a value error when used.  Without the declared variables and references to them in the CSS it passes with no errors.  [Here is a link to the open issue on W3C](https://github.com/w3c/css-validator/issues/111), all new reports on this issure are directed to this link.
  
 ### Visual inspection and manual testing
 * Visually inspected through the Chrome browser inspect function to confirm the responsive layout, features and links work as intended on all the below platforms :-
