@@ -40,7 +40,7 @@ body {
 .navbar {
     position: fixed;
     width: 100%;
-    background: rgba(0,0,0,0.8);
+    background: rgba(0,0,0,0.9);
     padding: 0;
     z-index: 100;
     top: 0;
@@ -168,7 +168,7 @@ body {
 }
 
 /*-----------------------------------------------
-    4. Button styling
+    4. Button styling index page
 -----------------------------------------------*/
 .main-buttons-container {
     padding: 0;
@@ -242,7 +242,7 @@ footer .social-media-links {
     margin: 0 5px 5px 5px;
     font-size: 32px;
     color: var(--font-main-color);
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.7);
     border-radius: 25%;
     line-height: 0;
 }
@@ -302,7 +302,7 @@ footer .social-media-links {
 
 .menu-wrapper .food-info {
     padding-top: 15px;
-    background: rgba(0,0,0,0.8);
+    background: rgba(0,0,0,0.85);
     border-radius: 0 0 10px 10px;
 }
 
@@ -612,19 +612,19 @@ footer .social-media-links {
     padding: 10px 0 10px 0;
     margin: 0 20px 0 20px;
     border-radius: 5px;
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.85);
     height: 100%;
 }
 
-.event-cell-wrapper > h3 {
+.event-cell-wrapper h2,
+.event-cell-wrapper h2 {
     text-align: center;
     margin-bottom: 20px;
 }
 
 .event-cell-wrapper p {
     text-align: center;
-    padding-top: 20px;
-    margin: 0 20px 60px 20px;
+    margin: 20px 20px 30px 20px;
     color: var(--font-secondary-color);
 }
 

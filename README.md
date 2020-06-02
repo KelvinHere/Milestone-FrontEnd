@@ -268,7 +268,7 @@ The location page simply gives customers the ability to locate / contact and fin
     * Higher resolution screens show two columns one for events and the other a form to enter the draw (the mobile screen enter draw button and associated text is hidden)  
     * On higher resolution screens the maximum width of the page content is capped for readability
     * Enter draw modal has close and submit button
-    * The Enter draw form only accepts valid inputs.
+    * The Enter draw form only ac cepts valid inputs.
         * Name - accepts any text
         * Email - gives an error when incorrect email format is entered
         * Entry - code gives an error unless it is a 5 digit code
@@ -282,21 +282,23 @@ The location page simply gives customers the ability to locate / contact and fin
   
 ### User stories tested
 - As a previous customer, I want to choose something to eat because I'm hungry.
-    * Menu accessible by one click on either mobile or desktop.
+    * (F1) Menu accessible by one click on either mobile or desktop.
 - As Charlie, a friend recommended the restaurant, I want to find out where it is so I can visit.
-    * Location accessible by one click, google maps embedded link to location, underneath are GPS coordinates and written address.
+    * (F2) Location accessible by one click, google maps embedded link to location, underneath are GPS coordinates and written address.
 - As an allergy sufferer, I want to view the allergen information so I don’t have a bad reaction.
-    * Each menu item when clicked shows 'allergen symbols' used by [Erudus](https://erudus.com/)', also under ingredients the allergens are written so customers can double check if unsure of the symbol.
+    * (F3) Each menu item when clicked shows 'allergen symbols' used by [Erudus](https://erudus.com/)', also under ingredients the allergens are written so customers can double check if unsure of the symbol.
 - As a serial customer, I want to know this week's event because it adds value to my visit
-    * One click to events page, the first item is this week's event, prominent **Enter draw** button on mobile or entry form on desktop.
+    * (F4) One click to events page, the first item is this week's event, prominent **Enter draw** button on mobile or entry form on desktop.
 - As Bob, I want to try to win the office delivery draw because I want to win lunch for my workmates.
-    * The events page allows bob to enter the draw with a valid receipt code
+    * (F5) The events page allows bob to enter the draw with a valid receipt code
 - As a health conscious person, I want to know the ingredients of my lunch, so I can stay within my nutrition boundaries.
-    * Each menu item when clicked shows exact ingredients.
+    * (F6) Each menu item when clicked shows exact ingredients.
 - As Paulie, I want to order without talking to anyone, I want this service option.
-    * QR code available via a prominent button once the menu item is selected.    
+    * (F7) QR code available via a prominent button once the menu item is selected.    
 - As a shift worker, I want to know the opening hours, so I am not wasting a trip to a closed restaurant. 
-    * As standard, opening hours are included on the location page and are accessible in one click.
+    * (F8) Opening hours are grouped with location on the location page, anyone looking where the restaurant is will be able to see if it is open too.
+
+![User Stories](https://github.com/KelvinHere/Milestone-FrontEnd/blob/master/design-assets/user-stories-picture.jpg?raw=true "User stories feature locations")
  
 ## Deployment
  
@@ -355,6 +357,7 @@ To clone FreshGreen website from GitHub :-
 - Crossed grain symbol - [Coeliac Society of Ireland](https://www.coeliac.ie/crossed-grain-symbol/)
 - Vegetarian symbol - [European Vegetarian Union](https://www.euroveg.eu/)
 - Cafe / doughnut images (Free for commercial use - No attribution required) [Pixabay](https://pixabay.com/)
+- Iphone image in this readme - Google Chrome inspection tool [Devtools](https://developers.google.com/web/tools/chrome-devtools)
  
 ### Acknowledgements
  
