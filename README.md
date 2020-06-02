@@ -4,8 +4,8 @@ The [FreshGreen](https://kelvinhere.github.io/Milestone-FrontEnd/ 'FreshGreen we
 is a stylish reactive mobile first website for the FreshGreen restaurant, designed to attract customers and increase repeat custom.
 FreshGreen caters to workers for eat in and take-away healthy food.
 
-* FreshGreen Live Website - [Github Pages Live Link](https://kelvinhere.github.io/Milestone-FrontEnd/ 'FreshGreen website GitHub pages link') 
-* This Repository - [GitHub Repository](https://github.com/KelvinHere/Milestone-FrontEnd/ 'Gitpod repository link')
+* [FreshGreen Live Website](https://kelvinhere.github.io/Milestone-FrontEnd/ 'FreshGreen website GitHub pages link') 
+* [This Repository](https://github.com/KelvinHere/Milestone-FrontEnd/ 'Gitpod repository link')
 
 
 ## Contents
