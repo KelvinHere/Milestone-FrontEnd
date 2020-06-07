@@ -1,0 +1,839 @@
+/*Validation CSS file to show no CSS errors when not using variables
+
+ Table of contents
+    1. Global starting style
+    2. Navbar
+    3. Index page elements
+    4. Button styling
+    5. Below content food table
+    6. Footer - social media links
+    7. Menu Page
+        7.1. Menu page elements
+        7.2. Menu page modals
+    8. Location page elements
+    9. Events page elements
+    10. Page Not Found 
+    11. Media Query 
+*/
+
+/*-----------------------------------------------
+    1. Global starting style
+-----------------------------------------------*/
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: 'Kavivanar', sans-serif;
+    background: black;
+    color: rgb(155,212,150);
+}
+
+/*-----------------------------------------------
+    2. Navbar
+-----------------------------------------------*/
+.navbar {
+    background: rgba(0,0,0,0.9);
+    position: fixed;
+    width: 100%;
+    padding: 0;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar a {
+    color: rgb(155,212,150);
+}
+
+.navbar > a {
+    font-weight: bold;
+    font-family: 'Caveat', sans-serif;
+    font-size: 30px;
+}
+
+.nav-brand {
+    font-size: 25px;
+    padding: 0;
+    margin-left: 12px;
+}
+
+.nav-brand:hover {
+    text-decoration: none;
+}
+
+.navbar-toggler:focus {
+    outline-color: rgba(0, 0, 0, 0);
+}
+
+.navbar-collapse a {
+    font-size: 25px;
+}
+
+.navbar-collapse a:hover {
+    background-color: rgb(155,212,150);
+    color: black;
+}
+
+.navbar-expand-lg {
+    padding-bottom: 2px;
+}
+
+.nav-social-media-bar {
+    padding-left: 20px;
+    line-height: 0;
+}
+
+.navbar-menu-icon {
+    color: rgb(155,212,150);
+}
+
+.navbar-nav .active {
+    background-color: rgba(155,212,150,0.5);
+}
+
+.navbar-nav .active a {
+    color: black;
+}
+
+.nav-social-media-bar .social-media-links {
+    padding-left: 1px;
+    padding-right: 1px;
+    margin: 0 15px 0 0;
+    font-size: 32px;
+    color: rgb(155,212,150)
+}
+
+.nav-social-media-bar .social-media-links:hover {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.fa-facebook-square:hover {
+    color: #3b5998;
+}
+
+.fa-instagram-square:hover {
+    color: #833ab4;
+}
+
+.fa-twitter-square:hover {
+    color: #08a0e9;
+}
+
+.fa-youtube-square:hover {
+    color: #c4302b;
+}
+
+/*-----------------------------------------------
+    3. Index page elements
+-----------------------------------------------*/
+.main-article {
+    background-image: url("../images/home/hero-bg-sm.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    background-position: right 50% bottom 50%;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    min-height: 580px;
+}
+
+.logo-large-image {
+    max-width: 100%;
+    max-height: 40vh;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.logo-position {
+    margin-top: 3vh;
+    width: 100%;
+}
+
+.catchphrase p {
+    display: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0 0 7px black, 0 0 7px black, 0 0 7px black, 0 0 7px black;
+    text-align: center;
+    margin: 0 20px 0 20px;
+}
+
+/*-----------------------------------------------
+    4. Button styling index page
+-----------------------------------------------*/
+.main-buttons-container {
+    padding: 0;
+}
+
+.button-position {
+    width: 100%;
+    margin-top: auto;
+    position: relative;
+}
+
+.btn-outline-warning {
+    color: rgb(155,212,150);
+    border-color: rgb(155,212,150);
+}
+
+.btn-outline-warning:hover {
+    background-color: rgb(155,212,150);
+    border-color: rgb(155,212,150);
+}
+
+.index-large-buttons {
+    float: left;
+    margin-left: 1vw;
+    margin-bottom: 20px;
+    width: 220px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgba(0,0,0,0.6);
+}
+
+.index-large-buttons h2 {
+    margin: 0;
+}
+
+/*-----------------------------------------------
+    5. Below content food table
+-----------------------------------------------*/
+.food-table {
+    position: relative;
+}
+
+.food-table .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.food-table .flex-column {
+    flex: 100%;
+    max-width: 100%;
+}
+
+.food-table .food-table-image {
+    vertical-align: middle;
+    width: 100%;
+    padding: 1px;
+    background-color: rgb(155,212,150);
+}
+
+/*-----------------------------------------------
+    6. Footer - social media links
+-----------------------------------------------*/
+footer {
+    position: fixed;
+    bottom: 0;
+    margin: auto;
+}
+
+footer .social-media-links {
+    padding: 5px 6px 5px 6px;
+    margin: 0 5px 5px 5px;
+    font-size: 32px;
+    color: rgb(155,212,150);
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 25%;
+    line-height: 0;
+}
+
+/*-----------------------------------------------
+    7. Menu Page
+        7.1. Menu page elements
+-----------------------------------------------*/
+.menu-article-background {
+    background-image: url("../images/menu/menu-background-sm.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    position: fixed;
+    top: 0;
+}
+
+.menu-wrapper > table {
+    margin-top: 8vh;
+}
+
+.menu-wrapper {
+    background: none;
+}
+
+.menu-wrapper td {
+    border-top: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+
+.menu-wrapper h2 {
+    text-align: center;
+    margin-bottom: 4vh;
+}
+
+.menu-wrapper p {
+    text-align: center;
+    margin: auto;
+    padding-bottom: 4vh;
+}
+
+.menu-wrapper .food-picture {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-wrapper .food-picture img {
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.menu-wrapper .food-info {
+    padding-top: 15px;
+    background: rgba(0,0,0,0.85);
+    border-radius: 0 0 10px 10px;
+}
+
+.food-info > .food-title {
+    color: rgb(155,212,150);
+}
+
+.food-info > .food-description {
+    color: #EDF5E1;
+}
+
+.food-info > .food-price {
+    color: rgb(155,212,150);
+    text-align: right;
+}
+
+.menu-wrapper button {
+    height: 96%;
+    width: 97%;
+    display: block;
+    position: absolute;
+    border: none;
+    outline:none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/*-----------------------------------------------
+        7.2. Menu page modals
+-----------------------------------------------*/
+.modal-bg-color {
+    border-color: rgb(155,212,150);
+    border-width: 2px;
+}
+
+.menu-modal-root {
+    padding-right: 0px;
+}
+
+.menu-modals > .modal-content {
+    border-width: 2px;
+    border-color: rgb(155,212,150);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    background-color: rgba(0,0,0,0.88);
+}
+
+.menu-modals .modal-header > button {
+    position: absolute;
+    right: 20px;
+}
+
+.menu-modals > .modal-content > .modal-header {
+    width: 100%;
+    padding-bottom: 0;
+}
+
+.menu-modals > .modal-content > .modal-header > h2 {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+.menu-modals > .modal-content > .modal-header > .close{
+    font-family: Sans-serif;
+    font-size: 36px;
+    float: right;
+    color: rgb(155,212,150);
+}
+
+.menu-modal-info-wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+
+.menu-modal-info-wrapper .modal-food-picture {
+    overflow: hidden;
+    padding: 0;
+    border-radius: 5px;
+}
+
+.menu-modal-info-wrapper .modal-food-picture img {
+    max-width: 100%;
+}
+
+.menu-modal-info-wrapper .food-info {
+    padding: 0;
+}
+
+.menu-modal-info-wrapper .food-info h2{
+    margin-top: 1vh;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.menu-modal-info-wrapper .food-info h3{
+    margin-top: 1vh;
+    font-size: 16px;
+    text-align: center;
+}
+
+.menu-modal-info-wrapper .food-info p{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #FFA500;
+    text-align: center;
+}
+
+.price-and-qr-wrapper {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.price-and-qr-wrapper > button {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    font-size: 25px;
+    height: 100%;
+    background-color: #FFA500;
+    border-color: #FFA500;
+    color: black;
+}
+
+.price-and-qr-wrapper > button:hover {
+    background-color: #FF7C00;
+    border-color: white;
+}
+
+.price-and-qr-wrapper > p {
+    padding: 3px;
+    margin-top: 1vh;
+    margin-bottom: 0px !important;
+    background-color: rgb(155,212,150);
+    color: black;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+.item-allergens-wrapper {
+    margin-top: 1vh;
+    text-align: center;
+}
+
+.item-allergens-wrapper img{
+    display: inline-block;
+    margin: auto;
+}
+
+.qr-hidden img {
+    display: block;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*-----------------------------------------------
+    8. Location page elements
+-----------------------------------------------*/
+.location-article > .fluid-container {
+    padding-top: 60px;
+}
+
+.location-article > .fluid-container > .row {
+    margin: auto;
+    max-width: 1281px;
+}
+
+.address * {
+    text-align: center;
+}
+
+.address > h3 {
+    margin-bottom: 5px;
+}
+
+.address > p {
+    margin-bottom: 0px;
+    color: #EDF5E1;
+}
+
+.location-columns > .location-cell-border > h2 {
+    padding-top: 2vh;
+    text-align: center;
+}
+
+.location-columns .table-wrapper {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.map-wrapper {
+    max-width: 700px;
+    margin: auto;
+}
+
+.map-wrapper > .iframe-wrapper {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 15px;
+    margin: 20px 20px 20px 20px;
+}
+
+.map-wrapper .iframe-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    border: 0px;
+}
+
+.gps-wrapper {
+    text-align: center;
+}
+
+.gps-wrapper p {
+    color: #EDF5E1;
+}
+
+.opening-hours-button-wrapper {
+    margin: 0;
+    text-align: center;
+    display: block;
+}
+
+.opening-hours-button {
+    font-size: 20px;
+    background-color: #FFA500;
+    border-color: #FFA500;
+    color: black;
+}
+
+.opening-hours-button:hover {
+    background-color: #FF7C00;
+    border-color: white;
+}
+
+.hours-column td {
+    color: #EDF5E1;
+}
+
+.hours-column table tr {
+    border-top: hidden;
+}
+
+.opening-hours-table {
+    max-width: 100%;
+}
+
+.opening-hours-table td{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.opening-hours-table .no-padding{
+    padding-left: 0;
+    padding-right: 0;
+    width: 10px !important;
+}
+
+.location-cell-border {
+    border: 2px solid rgb(155,212,150);
+    padding: 10px 0 10px 0;
+    margin: 0 20px 0 20px;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.8);
+    height: 100%;
+}
+
+/*-----------------------------------------------
+    9. Events page elements
+-----------------------------------------------*/
+.events-article-background {
+    background-image: url("../images/events/events-bg-sm.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    position: fixed;
+    top: 0;
+}
+
+.events-wrapper > .row {
+    max-width: 1281px;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 15px;
+}
+
+.event-cell-wrapper {
+    border: 2px solid rgb(155,212,150);
+    padding: 10px 0 10px 0;
+    margin: 0 20px 0 20px;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.85);
+    height: 100%;
+}
+
+.event-cell-wrapper h2,
+.event-cell-wrapper h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.event-cell-wrapper p {
+    text-align: center;
+    margin: 20px 20px 30px 20px;
+    color: #EDF5E1;
+}
+
+.event-cell-wrapper label, .modal-content label {
+    color: #EDF5E1;
+}
+
+.event-image-wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+.event-image-wrapper img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.enter-draw-column {
+    display: none;
+}
+
+.enter-draw-wrapper {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.enter-draw-wrapper p {
+    margin-top: 20px;
+}
+
+.enter-draw-form {
+    padding: 20px 10px 0 10px;
+}
+
+.form-button {
+    padding-top: 30px;
+    text-align: center;
+    margin: auto;
+}
+
+.telephone-wrapper {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #EDF5E1;
+}
+
+.telephone-wrapper a {
+    font-family: 'Kavivanar', sans-serif;
+    font-weight: bold;
+}
+
+.event-cell-wrapper-modal {
+    border: none;
+    margin: auto;
+}
+
+.event-cell-wrapper-modal * {
+    text-align: center;
+}
+
+.modal-event-form {
+    border: none;
+}
+
+.events-button {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    font-size: 25px;
+    height: 100%;
+    background-color: #FFA500;
+    border-color: #FFA500;
+    color: black;
+}
+
+.events-button:hover {
+    background-color: #FF7C00;
+    border-color: white;
+}
+
+/*-----------------------------------------------
+    10. Page Not Found 
+-----------------------------------------------*/
+.page-not-found {
+    height: 100vh;
+    background: white;
+    color: black;
+    text-align: center;
+}
+
+.page-not-found * {
+    padding-top: 40px;
+}
+
+.page-not-found h1 {
+    font-size: 60px;
+}
+
+/*-----------------------------------------------
+    11. Media Query 
+-----------------------------------------------*/
+@media screen and (max-height: 635px) { 
+    .main-article {    /*Allow hero image to overflow screen height too small*/
+        height: auto;
+    }
+
+    .index-large-buttons {
+        float: left;
+    }
+
+    .index-page footer {    /* Remove footer if there is no room on home screen */
+        display: none;
+    }
+}
+
+@media(min-width: 775px) {
+    .logo-large-image { /*offset for logo to line up properly with button position change*/
+        padding-left: 125px;
+    }
+    
+    .catchphrase p {
+        display: block;
+    }
+
+    .index-button-col {
+        flex: 33.333333% !important;
+    }
+
+    .opening-hours-button-wrapper {
+        display: none;
+    }
+}
+
+@media(min-width: 992px) {
+    .main-article {
+        background-image: url("../images/home/hero-bg-md.jpg");
+        background-position: center bottom 30%;
+        height: 95vh;
+    }
+
+    .index-large-buttons {
+        margin-right: 0px;
+        font-size: 30px;
+        float: none;
+    }
+
+    .navbar-collapse a {
+        font-size: 18px;
+    }
+
+    .button-position {
+        margin-bottom: 25px;
+    }
+
+    .food-table > .flex-container > .flex-column {
+    flex: 33.33%;
+    max-width: 33.33%;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .menu-article-background {
+        background-image: url("../images/menu/menu-background-lg.jpg");
+        background-position: center center;
+    }
+
+    .menu-wrapper {
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    .menu-wrapper .food-picture {
+        flex: 50%;
+        width: 50%;
+    }
+
+    .menu-wrapper .food-picture img {
+        border-radius: 10px 0 0 10px;
+    }
+
+    .menu-wrapper .food-info {
+        flex: 50%;
+        width: 50%;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .location-columns {
+        margin-bottom: 50px;
+    }
+
+    .location-columns .table-wrapper {
+        margin-top: 20px;
+    }
+
+    .events-article-background {
+        background-image: url("../images/events/events-bg-lg.jpg");
+    }
+
+    .enter-draw-column {
+       display: block;
+    }
+
+    .enter-draw-wrapper {
+        display: none;
+    }
+}
+
+@media(min-width: 1281px) {
+    .main-article {
+        background-image: url("../images/home/hero-bg-lg.jpg");
+        height: 95vh;
+    }
+}
